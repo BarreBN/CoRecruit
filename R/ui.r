@@ -1,14 +1,18 @@
 library(shiny)
-library(leaflet)
 
-# Define UI with HTML and CSS enhancements
 ui <- fluidPage(
-  tags$head(
-    # Include external CSS for styling
-    tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
-  ),
-  # Leaflet map to display job data geographically
-  leafletOutput("jobMap", height = "600px"),
-  # Dynamic UI elements placeholder
-  uiOutput("dynamicContent")
+  titlePanel("Job Market Analysis"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("city", "Choose a City:", choices = c("All")),
+      actionButton("update", "Update Views")
+    ),
+    mainPanel(
+      tabsetPanel(type = "tabs",
+                  tabPanel("Job Fields", plotOutput("plotJobFields")),
+                  tabPanel("Top Jobs", plotOutput("plotTopJobs")),
+                  tabPanel("Non-Driving Jobs", plotOutput("plotNonDrivingJobs"))
+      )
+    )
+  )
 )
