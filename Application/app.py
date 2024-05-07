@@ -1,9 +1,10 @@
 import streamlit as st
 import openai
 import os
+from api_key import OPENAI_API_KEY  # Import API key from api_key.py
 
-# Load your OpenAI API key from an environment variable or secret management system
-openai.api_key = 'your-api-key'
+# Load your OpenAI API key from api_key.py
+openai.api_key = OPENAI_API_KEY
 
 # Function to load CSS
 def load_css(file_name):
