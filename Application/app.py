@@ -39,14 +39,6 @@ def read_file(file):
     else:
         return file.getvalue().decode()
 
-# Function to read file
-def read_file(file):
-    if file.type == 'application/pdf':
-        with pdfplumber.open(BytesIO(file.getvalue())) as pdf:
-            return ' '.join(page.extract_text() for page in pdf.pages)
-    else:
-        return file.getvalue().decode()
-
 # Load CSS
 load_css('styles.css')
 
