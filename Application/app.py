@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 import openai
-from PyPDF2 import PdfFileReader
+import pdfplumber
 from io import BytesIO
 
 openai.api_key = st.secrets["OPENAI_API_KEY"]
@@ -33,8 +33,8 @@ def get_recommendations(text, gender, experience, age):
 # Function to read file
 def read_file(file):
     if file.type == 'application/pdf':
-        pdf_reader = PdfFileReader(BytesIO(file.getvalue()))
-        return ''.join(page.extract_text() for page in pdf_reader.pages)
+        with pdfplumber.open(BytesIO(file.getvalue())) as pdf:
+            return ' '.join(page.extract_text() for page in pdf.pages)
     else:
         return file.getvalue().decode()
 
