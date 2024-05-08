@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import openai
 
@@ -6,7 +7,13 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Function to load CSS
 def load_css(file_name):
-    with open(file_name) as f:
+    # Get the directory of the current script
+    script_dir = os.path.dirname(__file__)
+    
+    # Construct the absolute path to the CSS file
+    file_path = os.path.join(script_dir, file_name)
+    
+    with open(file_path) as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Function to call the GPT-3 model
