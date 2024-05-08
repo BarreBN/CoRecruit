@@ -45,9 +45,9 @@ load_css('styles.css')
 # Sidebar
 st.sidebar.title('Options')
 
-gender = st.sidebar.radio('Gender Preference', ['Male', 'Female', 'Non-binary'])
-experience = st.sidebar.radio('Experience Preference', ['Entry Level', 'Mid Level', 'Experienced'])
-age = st.sidebar.radio('Age', ['Young', 'Middle aged', 'Old'])
+gender = st.sidebar.radio('Gender Preference', ['N/A', 'Male', 'Female', 'Non-binary'])
+experience = st.sidebar.radio('Experience Preference', ['N/A', 'Entry Level', 'Mid Level', 'Experienced'])
+age = st.sidebar.radio('Age', ['N/A', 'Young', 'Middle aged', 'Old'])
 
 # Main Area
 st.title('Job Posting Editor')
