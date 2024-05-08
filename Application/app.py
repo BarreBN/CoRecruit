@@ -22,7 +22,7 @@ def get_recommendations(text, gender, experience, age):
     prompt = f"{text}\n\nGiven that the ideal candidate is {gender}, {experience}, and {age}, how could this job posting be improved?"
 
     response = openai.ChatCompletion.create(
-      model="text-davinci-002",
+      model="gpt-3.5-turbo",
       messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
