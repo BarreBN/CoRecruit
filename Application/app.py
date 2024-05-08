@@ -1,8 +1,9 @@
 import os
 import streamlit as st
 import openai
+from PyPDF2 import PdfFileReader
+from io import BytesIO
 
-# Load your OpenAI API key from Streamlit secrets
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # Function to load CSS
@@ -29,6 +30,14 @@ def get_recommendations(text, gender, experience, age):
 
     return response.choices[0].text.strip()
 
+# Function to read file
+def read_file(file):
+    if file.type == 'application/pdf':
+        pdf_reader = PdfFileReader(BytesIO(file.getvalue()))
+        return ''.join(page.extract_text() for page in pdf_reader.pages)
+    else:
+        return file.getvalue().decode()
+
 # Load CSS
 load_css('styles.css')
 
@@ -46,7 +55,7 @@ uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'pdf'])
 
 if uploaded_file is not None:
     # Process the text from the job posting
-    text = uploaded_file.read().decode()
+    text = read_file(uploaded_file)
 
     # Use the GPT API to recommend changes
     recommendations = get_recommendations(text, gender, experience, age)
