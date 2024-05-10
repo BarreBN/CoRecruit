@@ -21,15 +21,13 @@ def load_css(file_name):
 def get_recommendations(text, gender, experience, age):
     prompt = f"{text}\n\nGiven that the ideal candidate is {gender}, {experience}, and {age}, how could this job posting be improved?"
 
-    response = openai.Chat.create(
-      model="gpt-3.5-turbo",
-      messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
-        ]
+    response = openai.Completion.create(
+      engine="text-davinci-002",
+      prompt=prompt,
+      max_tokens=150
     )
 
-    return response['choices'][0]['message']['content'].strip()
+    return response['choices'][0]['text'].strip()
 
 # Function to read file
 def read_file(file):
