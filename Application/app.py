@@ -59,7 +59,7 @@ def read_file(file):
         return ""
 
 # Use columns for layout
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2 = st.columns([1, 3])
 
 with col1:
     st.title('Options')
