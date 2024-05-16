@@ -74,7 +74,12 @@ driving_license = st.sidebar.radio('Driving License', ['N/A', 'Required', 'Not R
 education = st.sidebar.radio('Education', ['N/A', 'Gymnasial', 'Eftergymnasial/Universitet'])
 
 # Main Area
-st.title('CoRecruit AI')
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Kai&display=swap');
+    </style>
+    <h1><span class='highlight'>Co</span>Recruit <span class='highlight'>AI</span></h1>
+    """, unsafe_allow_html=True)
 
 uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
 

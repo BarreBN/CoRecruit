@@ -11,8 +11,13 @@ body {
 /* Styling for h1 */
 h1 {
     color: #0046af;
-    font-family: 'Papyrus', sans-serif; /* Set font to Papyrus */
-    font-weight: bold; /* Make the font bold */
+    font-family: 'Bebas Kai', sans-serif;
+}
+
+/* Styling for highlighted text in h1 */
+h1 .highlight {
+    color: #ff0000; /* Change to your preferred color */
+    font-weight: bold;
 }
 
 /* Styling for other headers */
