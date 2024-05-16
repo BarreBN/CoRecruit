@@ -8,9 +8,17 @@ body {
     background-color: #00547e; /* Background color */
 }
 
-/* Styling for headers */
-h1, h2, h3, h4, h5, h6 {
+/* Styling for h1 */
+h1 {
     color: #0046af;
+    font-family: 'Papyrus', sans-serif; /* Set font to Papyrus */
+    font-weight: bold; /* Make the font bold */
+}
+
+/* Styling for other headers */
+h2, h3, h4, h5, h6 {
+    color: #0046af;
+    font-family: 'Arial', sans-serif; /* Add your preferred font here */
 }
 
 /* Styling for buttons */
@@ -22,9 +30,6 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
 
 /* Custom styles for Streamlit sidebar */
