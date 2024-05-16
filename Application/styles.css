@@ -2,7 +2,7 @@
 
 /* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Papyrus, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #00547e; /* Background color */
@@ -23,7 +23,7 @@ h1 .highlight {
 /* Styling for other headers */
 h2, h3, h4, h5, h6 {
     color: #0046af;
-    font-family: 'Arial', sans-serif; /* Add your preferred font here */
+    font-family: 'Papyrus', sans-serif; /* Add your preferred font here */
 }
 
 /* Styling for buttons */
@@ -34,6 +34,7 @@ button {
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    font-family: 'Papyrus';
     display: inline-block;
 }
 
