@@ -1,9 +1,11 @@
+/* styles.css */
+
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #00547e; /* Changed to a lighter background */
+    background-color: #00547e; /* Background color */
 }
 
 /* Styling for headers */
@@ -16,7 +18,7 @@ button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 1px 1px;
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -26,36 +28,20 @@ button {
 }
 
 /* Custom styles for Streamlit sidebar */
-.css-1d391kg {
-    padding-top: 300px; /* Adjust this value to move sidebar content higher */
-}
-
-.css-1d391kg .css-1lcbmhc, .css-1d391kg .css-1k7bsiw {
-    padding-top: 0; /* Remove additional padding from top */
+[data-testid="stSidebar"] {
+    background-color: #333; /* Dark background for sidebar */
+    color: white;
 }
 
 /* Styling for the sidebar */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px; /* adjust as needed */
-    height: 100%;
-    overflow: auto;
-}
-/* Add more styles as needed */
-
-/* styles.css */
-
-[data-testid="stSidebar"] .css-17eq0hr {
-    padding: 10px;
+[data-testid="stSidebar"] .css-1d391kg {
+    padding-top: 50px; /* Adjust padding */
 }
 
 /* Styling the radio buttons */
 [data-testid="stSidebar"] .css-1inwz65 {
     color: white;
 }
-*/
 
 /* Main content adjustments */
 .main .block-container {
@@ -63,4 +49,5 @@ button {
     padding-left: 2rem; /* Adjust left padding */
     padding-right: 2rem; /* Adjust right padding */
     padding-bottom: 2rem; /* Adjust bottom padding */
+    background-color: #ffffff; /* Background color for main content */
 }
