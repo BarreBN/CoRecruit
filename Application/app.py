@@ -23,10 +23,10 @@ load_css('styles.css')
 
 def get_recommendations(text, gender, experience, age, language, employment_type, location, driving_license, education):
     if language == 'Swedish':
-        prompt = f"{text}\n\nJag har en jobbannons och jag vill förbättra den baserat på vissa kriterier. Den ideala kandidaten för min jobbannons har följande egenskaper: {employment_type}, {gender}, {experience}, {age}, {location}, {driving_license} och {education}. Kan du ge en översiktlig bedömning av jobbannonsen och kommentera specifika meningar, ord eller stycken som kan förbättras eller ändras för att bättre attrahera den ideala kandidaten? Skriv svaret på Svenska."
+        prompt = f"{text}\n\nJag har en jobbannons och jag vill förbättra den baserat på vissa kriterier. Den ideala kandidaten för min jobbannons har följande egenskaper: {employment_type}, {experience}, {location}, {driving_license} och {education}. Kan du ge en översiktlig bedömning av jobbannonsen och kommentera specifika meningar, ord eller stycken som kan förbättras eller ändras för att bättre attrahera den ideala kandidaten? Skriv svaret på Svenska."
         system_message = "Du är en hjälpsam assistent."
     else:  # Default to English
-        prompt = f"{text}\n\nI have a job posting that I want to improve based on certain criteria. The ideal candidate for my job posting has the following characteristics: {employment_type}, {gender}, {experience}, {age}, {location}, {driving_license} and {education}. Can you provide an overall assessment of the job posting and comment on specific sentences, words, or paragraphs that can be improved or changed to better attract the ideal candidate? Write the response in English."
+        prompt = f"{text}\n\nJag har en jobbannons och jag vill förbättra den baserat på vissa kriterier. Den ideala kandidaten för min jobbannons har följande egenskaper: {employment_type}, {experience}, {location}, {driving_license} och {education}. Kan du ge en översiktlig bedömning av jobbannonsen och kommentera specifika meningar, ord eller stycken som kan förbättras eller ändras för att bättre attrahera den ideala kandidaten? Skriv svaret på Engelska."
         system_message = "You are a helpful assistant."
 
     response = client.chat.completions.create(
@@ -58,34 +58,40 @@ def read_file(file):
         st.error("Unsupported file type.")
         return ""
 
-# Use columns for layout
-col1, col2 = st.columns([1, 3])
+# Load CSS
+load_css('styles.css')
 
-with col1:
-    st.title('Options')
+# Sidebar
+st.sidebar.title('Options')
 
-    # Add a language selection option
-    language = st.radio('Language', ['English', 'Swedish'])
+# Add a language selection option
+language = st.sidebar.radio('Language', ['English', 'Swedish'])
 
-    employment_type = st.radio('Employment Type', ['N/A', 'Full time', 'Part time'])
-    gender = st.radio('Gender Preference', ['N/A', 'Male', 'Female', 'Non-binary'])
-    experience = st.radio('Experience Preference', ['N/A', 'Entry Level', 'Mid Level', 'Experienced'])
-    age = st.radio('Age', ['N/A', 'Young', 'Middle aged', 'Old'])
-    location = st.radio('Location', ['N/A', 'On-Site', 'Hybrid', 'Remote'])
-    driving_license = st.radio('Driving License', ['N/A', 'Required', 'Not Required'])
-    education = st.radio('Education', ['N/A', 'Gymnasial', 'Eftergymnasial/Universitet'])
+employment_type = st.sidebar.radio('Employment Type', ['N/A', 'Full time', 'Part time'])
+experience = st.sidebar.radio('Experience Preference', ['N/A', 'Entry Level', 'Mid Level', 'Experienced'])
+location = st.sidebar.radio('Location', ['N/A', 'On-Site', 'Hybrid', 'Remote'])
+driving_license = st.sidebar.radio('Driving License', ['N/A', 'Required', 'Not Required'])
+education = st.sidebar.radio('Education', ['N/A', 'Gymnasial', 'Eftergymnasial/Universitet'])
 
-with col2:
-    st.title('CoRecruit AI')
-    uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
+# Main Area
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Kai&display=swap');
+    </style>
+    <h1><span class='highlight'>Co</span>Recruit <span class='highlight'>AI</span></h1>
+    """, unsafe_allow_html=True)
 
-    if uploaded_file is not None:
-        if st.button('Run'):
-            text = read_file(uploaded_file)
+uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
 
-            if text:
-                recommendations = get_recommendations(text, gender, experience, age, language, employment_type, location, driving_license, education)
-                st.subheader("Recommendations:")
-                st.write(recommendations)
-            else:
-                st.error("Failed to extract text from the uploaded file.")
+if uploaded_file is not None:
+    if st.button('Run'):
+        # Process the text from the job posting
+        text = read_file(uploaded_file)
+
+        # Use the GPT API to recommend changes if text extraction is successful
+        if text:
+            recommendations = get_recommendations(text, gender, experience, age, language, employment_type, location, driving_license, education)
+            st.subheader("Recommendations:")
+            st.write(recommendations)
+        else:
+            st.error("Failed to extract text from the uploaded file.")
