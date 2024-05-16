@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d60000;
+    background-color: #f0f0f0; /* Changed to a lighter background */
 }
 
 /* Styling for headers */
@@ -25,17 +25,25 @@ button {
     cursor: pointer;
 }
 
-/* Add more styles as needed */
-
-/* styles.css */
-
-body {
-    /* Add your styles here */
+/* Styling the sidebar */
+[data-testid="stSidebar"] {
+    background-color: #333; /* Dark background for sidebar */
+    color: white;
 }
 
-/* Example: Change the background color */
-/*
-body {
-    background-color: #f0f0f0;
+[data-testid="stSidebar"] .css-17eq0hr {
+    padding: 10px;
 }
-*/
+
+/* Styling the radio buttons */
+[data-testid="stSidebar"] .css-1inwz65 {
+    color: white;
+}
+
+/* Main content adjustments */
+.main .block-container {
+    padding-top: 1rem; /* Adjust top padding */
+    padding-left: 2rem; /* Adjust left padding */
+    padding-right: 2rem; /* Adjust right padding */
+    padding-bottom: 2rem; /* Adjust bottom padding */
+}
