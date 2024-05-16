@@ -1,38 +1,52 @@
+/* styles.css */
+
 /* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Papyrus, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Changed to a lighter background */
+    background-color: #00547e; /* Background color */
 }
 
-/* Styling for headers */
-h1, h2, h3, h4, h5, h6 {
-    color: #ed00f1;
+/* Styling for h1 */
+h1 {
+    color: #0046af;
+    font-family: 'Bebas Kai', sans-serif;
+}
+
+/* Styling for highlighted text in h1 */
+h1 .highlight {
+    color: #ff0000; /* Change to your preferred color */
+    font-weight: bold;
+}
+
+/* Styling for other headers */
+h2, h3, h4, h5, h6 {
+    color: #0046af;
+    font-family: 'Papyrus', sans-serif; /* Add your preferred font here */
 }
 
 /* Styling for buttons */
 button {
     background-color: #4CAF50; /* Green */
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color: rgba(255, 255, 255, 0);
+    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    font-family: 'Papyrus';
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
 }
 
-/* Styling the sidebar */
+/* Custom styles for Streamlit sidebar */
 [data-testid="stSidebar"] {
-    background-color: #333; /* Dark background for sidebar */
+    background-color: #00488838; /* Dark background for sidebar */
     color: white;
 }
 
-[data-testid="stSidebar"] .css-17eq0hr {
-    padding: 10px;
+/* Styling for the sidebar */
+[data-testid="stSidebar"] .css-1d391kg {
+    padding-top: 50px; /* Adjust padding */
 }
 
 /* Styling the radio buttons */
@@ -46,4 +60,5 @@ button {
     padding-left: 2rem; /* Adjust left padding */
     padding-right: 2rem; /* Adjust right padding */
     padding-bottom: 2rem; /* Adjust bottom padding */
+    background-color: #ffffff00; /* Background color for main content */
 }
