@@ -59,21 +59,21 @@ def read_file(file):
         return ""
 
 # Use columns for layout
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns([1, 2, 1])
 
 with col1:
-    st.sidebar.title('Options')
+    st.title('Options')
 
     # Add a language selection option
-    language = st.sidebar.radio('Language', ['English', 'Swedish'])
+    language = st.radio('Language', ['English', 'Swedish'])
 
-    employment_type = st.sidebar.radio('Employment Type', ['N/A', 'Full time', 'Part time'])
-    gender = st.sidebar.radio('Gender Preference', ['N/A', 'Male', 'Female', 'Non-binary'])
-    experience = st.sidebar.radio('Experience Preference', ['N/A', 'Entry Level', 'Mid Level', 'Experienced'])
-    age = st.sidebar.radio('Age', ['N/A', 'Young', 'Middle aged', 'Old'])
-    location = st.sidebar.radio('Location', ['N/A', 'On-Site', 'Hybrid', 'Remote'])
-    driving_license = st.sidebar.radio('Driving License', ['N/A', 'Required', 'Not Required'])
-    education = st.sidebar.radio('Education', ['N/A', 'Gymnasial', 'Eftergymnasial/Universitet'])
+    employment_type = st.radio('Employment Type', ['N/A', 'Full time', 'Part time'])
+    gender = st.radio('Gender Preference', ['N/A', 'Male', 'Female', 'Non-binary'])
+    experience = st.radio('Experience Preference', ['N/A', 'Entry Level', 'Mid Level', 'Experienced'])
+    age = st.radio('Age', ['N/A', 'Young', 'Middle aged', 'Old'])
+    location = st.radio('Location', ['N/A', 'On-Site', 'Hybrid', 'Remote'])
+    driving_license = st.radio('Driving License', ['N/A', 'Required', 'Not Required'])
+    education = st.radio('Education', ['N/A', 'Gymnasial', 'Eftergymnasial/Universitet'])
 
 with col2:
     st.title('CoRecruit AI')
