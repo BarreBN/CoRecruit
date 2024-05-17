@@ -128,7 +128,7 @@ def set_page_config():
         .markdown-text-container {
             background-color: transparent !important;
             border: none !important;
-            margin-top: -150px !important;  /* Adjust this value as needed */
+            margin-top: -20px !important;  /* Adjust this value as needed */
         }
         </style>
     """, unsafe_allow_html=True)
