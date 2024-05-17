@@ -64,8 +64,8 @@ def read_file(file):
 # Define pages
 def main_page():
     st.markdown("""
-    Want to optimize your job post?
-    Want to connect to the ideal candidate and speak their language?
+    Want to optimize your job post?  
+    Want to connect to the ideal candidate and speak their language?  
 
     Just add your job post and let us work our magic! 
     """)
