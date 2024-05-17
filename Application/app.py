@@ -87,6 +87,11 @@ def main_page():
     <h4>About Us</h4>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
+    
+    # Add empty space
+    for _ in range(10):
+        st.empty()
+
     <h3>Our Team</h3>
     <ul>
         <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
@@ -98,10 +103,6 @@ def main_page():
     <p>Check out our GitHub repository: <a href="https://github.com/BarreBN/CoRecruit.git" target="_blank">CoRecruit</a></p>
     """, unsafe_allow_html=True)
     
-# Add empty space
-for _ in range(10):
-    st.empty()
-
 
 def tutorial_page():
     st.title('Tutorial')
