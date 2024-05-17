@@ -142,6 +142,10 @@ def set_page_config():
 
 set_page_config()
 
+# Add some space at the top of the page
+st.markdown('&nbsp;', unsafe_allow_html=True)
+
+# Your existing code
 st.markdown("""
 <nav style="display: flex; justify-content: space-evenly; background-color: transparent; padding: 1px;">
     <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
