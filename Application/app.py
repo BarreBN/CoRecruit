@@ -174,10 +174,3 @@ elif page == "tutorial":
     tutorial_page()
 elif page == "faq":
     faq_page()
-
-
-pages = {
-    'Home': main_page,
-    'Tutorial': tutorial_page,
-    'FAQ': faq_page
-}
