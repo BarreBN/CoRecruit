@@ -122,21 +122,21 @@ st.markdown("""
 <hr>
 """, unsafe_allow_html=True)
 
-# Sidebar options
-st.sidebar.title('Options')
-
-experience = st.sidebar.slider('Experience (years)', 0, 10)
-language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
-employment_type = st.sidebar.selectbox('Employment Type', ['Full Time', 'Part Time'])
-location = st.sidebar.selectbox('On-site', ['Yes', 'No', 'Hybrid'])
-education = st.sidebar.selectbox('Education', ['Not applicable', 'Upper Secondary School', 'Higher Education'])
-driving_license = st.sidebar.checkbox('Driving License')
-
 # Render the selected page based on URL parameter
 query_params = st.experimental_get_query_params()
 page = query_params.get("page", ["main"])[0]
 
 if page == "main":
+    # Sidebar options only for the main page
+    st.sidebar.title('Options')
+
+    experience = st.sidebar.slider('Experience (years)', 0, 10)
+    language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
+    employment_type = st.sidebar.selectbox('Employment Type', ['Full Time', 'Part Time'])
+    location = st.sidebar.selectbox('On-site', ['Yes', 'No', 'Hybrid'])
+    education = st.sidebar.selectbox('Education', ['Not applicable', 'Upper Secondary School', 'Higher Education'])
+    driving_license = st.sidebar.checkbox('Driving License')
+    
     main_page()
 elif page == "tutorial":
     tutorial_page()
