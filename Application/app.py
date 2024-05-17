@@ -81,6 +81,9 @@ education = st.sidebar.radio('Education', ['N/A', 'Gymnasial', 'Eftergymnasial/U
 # Main Area
 st.title('CoRecruit AI')
 
+# Information text
+st.markdown('Made by the students of Information Systems.')
+
 uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
 
 if uploaded_file is not None:
