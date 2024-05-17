@@ -63,8 +63,8 @@ load_css('styles.css')
 
 # Information text with image
 st.markdown("""
-This is some information text. 
-<img src="https://static.instatext.io/prod/uploads/2019/12/07145707/smartmockups_medium.jpg" style="float: right; width: 50px; height: 50px;">
+Improve your job ads with a simple input!
+<img src="https://static.instatext.io/prod/uploads/2019/12/07145707/smartmockups_medium.jpg" style="float: center; width: 200px; height: 200px;">
 """, unsafe_allow_html=True)
 
 # Sidebar
