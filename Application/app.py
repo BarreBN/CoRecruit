@@ -115,9 +115,9 @@ load_css('styles.css')
 # Top navigation with clickable titles
 st.markdown("""
 <nav style="display: flex; justify-content: space-around; background-color: #f0f0f0; padding: 10px;">
-    <a href="#main-page" style="text-decoration: none; font-weight: bold;">Home</a>
-    <a href="#tutorial-page" style="text-decoration: none; font-weight: bold;">Tutorial</a>
-    <a href="#faq-page" style="text-decoration: none; font-weight: bold;">FAQ</a>
+    <a href="?page=main" style="text-decoration: none; font-weight: bold;">Home</a>
+    <a href="?page=tutorial" style="text-decoration: none; font-weight: bold;">Tutorial</a>
+    <a href="?page=faq" style="text-decoration: none; font-weight: bold;">FAQ</a>
 </nav>
 <hr>
 """, unsafe_allow_html=True)
@@ -132,8 +132,9 @@ location = st.sidebar.selectbox('On-site', ['Yes', 'No', 'Hybrid'])
 education = st.sidebar.selectbox('Education', ['Not applicable', 'Upper Secondary School', 'Higher Education'])
 driving_license = st.sidebar.checkbox('Driving License')
 
-# Render the selected page based on hash in URL
-page = st.experimental_get_query_params().get("page", ["main"])[0]
+# Render the selected page based on URL parameter
+query_params = st.experimental_get_query_params()
+page = query_params.get("page", ["main"])[0]
 
 if page == "main":
     main_page()
@@ -142,14 +143,16 @@ elif page == "tutorial":
 elif page == "faq":
     faq_page()
 
-# JavaScript to change URL hash without reloading the page
+# JavaScript to handle navigation without page reload
 st.markdown("""
 <script type="text/javascript">
     document.querySelectorAll('nav a').forEach((el) => {
         el.addEventListener('click', (e) => {
             e.preventDefault();
-            window.history.pushState({}, '', `?page=${el.getAttribute('href').substring(1)}`);
-            window.dispatchEvent(new Event('hashchange'));
+            const urlParams = new URLSearchParams(window.location.search);
+            urlParams.set('page', el.getAttribute('href').substring(1));
+            window.history.pushState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
+            window.dispatchEvent(new Event('popstate'));
         });
     });
 </script>
