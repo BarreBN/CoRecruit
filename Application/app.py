@@ -115,9 +115,9 @@ load_css('styles.css')
 # Top navigation with clickable titles
 st.markdown("""
 <nav style="display: flex; justify-content: space-around; background-color: #f0f0f0; padding: 10px;">
-    <a href="?page=main" style="text-decoration: none; font-weight: bold;">Home</a>
-    <a href="?page=tutorial" style="text-decoration: none; font-weight: bold;">Tutorial</a>
-    <a href="?page=faq" style="text-decoration: none; font-weight: bold;">FAQ</a>
+    <a href="?page=main" style="text-decoration: none; font-weight: bold;" onclick="loadPage('main'); return false;">Home</a>
+    <a href="?page=tutorial" style="text-decoration: none; font-weight: bold;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
+    <a href="?page=faq" style="text-decoration: none; font-weight: bold;" onclick="loadPage('faq'); return false;">FAQ</a>
 </nav>
 <hr>
 """, unsafe_allow_html=True)
@@ -146,14 +146,11 @@ elif page == "faq":
 # JavaScript to handle navigation without page reload
 st.markdown("""
 <script type="text/javascript">
-    document.querySelectorAll('nav a').forEach((el) => {
-        el.addEventListener('click', (e) => {
-            e.preventDefault();
-            const urlParams = new URLSearchParams(window.location.search);
-            urlParams.set('page', el.getAttribute('href').substring(1));
-            window.history.pushState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
-            window.dispatchEvent(new Event('popstate'));
-        });
-    });
+    function loadPage(page) {
+        const urlParams = new URLSearchParams(window.location.search);
+        urlParams.set('page', page);
+        window.history.pushState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
+        window.dispatchEvent(new Event('popstate'));
+    }
 </script>
 """, unsafe_allow_html=True)
