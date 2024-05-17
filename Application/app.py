@@ -80,10 +80,6 @@ def main_page():
                 st.error("Failed to extract text from the uploaded file.")
 
 
-    # Add empty space
-    for _ in range(10):
-        st.empty()
-
     
     # About Us Section
     st.markdown("""
@@ -101,6 +97,11 @@ def main_page():
     </ul>
     <p>Check out our GitHub repository: <a href="https://github.com/BarreBN/CoRecruit.git" target="_blank">CoRecruit</a></p>
     """, unsafe_allow_html=True)
+    
+# Add empty space
+for _ in range(10):
+    st.empty()
+
 
 def tutorial_page():
     st.title('Tutorial')
