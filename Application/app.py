@@ -84,7 +84,7 @@ def main_page():
     # About Us Section
     st.markdown("""
     <hr>
-    <h3>About Us</h3>
+    <h4>About Us</h4>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
     """, unsafe_allow_html=True)
