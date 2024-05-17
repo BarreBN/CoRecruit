@@ -83,28 +83,41 @@ def main_page():
             else:
                 st.error("Failed to extract text from the uploaded file.")
 
-# About Us Section
-    st.markdown("""
-    <hr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2>About Us</h2>
-    <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
-    Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
-    <br>
-    <h3>Our Team</h3>
-    <ul>
-        <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
-        <li>Jakob Delin</li>
-        <li>Molly Korse (<a href="https://www.linkedin.com/in/molly-korse-a4754b192/" target="_blank">LinkedIn</a>)</li>
-        <li>Peter Markus (<a href="https://www.linkedin.com/in/kedinpetmark/" target="_blank">LinkedIn</a>)</li>
-        <li>Tobias Magnusson (<a href="https://www.linkedin.com/in/tobias-magnusson-333650194/" target="_blank">LinkedIn</a>)</li>
-    </ul>
-    <p>Check out our GitHub repository: <a href="https://github.com/BarreBN/CoRecruit.git" target="_blank">CoRecruit</a></p>
-    """, unsafe_allow_html=True)
+# Create two columns
+col1, col2 = st.beta_columns(2)
+
+# About Us Section in the first column
+col1.markdown("""
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>About Us</h2>
+<p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
+Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
+<br>
+""", unsafe_allow_html=True)
+
+# Our Team Section in the second column
+col2.markdown("""
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Our Team</h2>
+<ul>
+    <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
+    <li>Jakob Delin</li>
+    <li>Molly Korse (<a href="https://www.linkedin.com/in/molly-korse-a4754b192/" target="_blank">LinkedIn</a>)</li>
+    <li>Peter Markus (<a href="https://www.linkedin.com/in/kedinpetmark/" target="_blank">LinkedIn</a>)</li>
+    <li>Tobias Magnusson (<a href="https://www.linkedin.com/in/tobias-magnusson-333650194/" target="_blank">LinkedIn</a>)</li>
+</ul>
+<p>Check out our GitHub repository: <a href="https://github.com/BarreBN/CoRecruit.git" target="_blank">CoRecruit</a></p>
+""", unsafe_allow_html=True)
     
 
 def tutorial_page():
