@@ -1,5 +1,19 @@
 /* styles.css */
 
+
+<body>
+    <input type="text" name="myTextbox" id="myTextbox">
+    <!-- Rest of your HTML content -->
+</body>
+
+/* Styling for the textbox */
+#myTextbox {
+    width: 100%; /* Full width */
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
 /* General body styling */
 body {
     font-family: Papyrus, sans-serif;
