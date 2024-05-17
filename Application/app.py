@@ -1,11 +1,12 @@
 import os
 import streamlit as st
 from openai import OpenAI
+
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 from io import BytesIO
 from docx import Document
 
 # Initialize OpenAI client with the API key from Streamlit secrets
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Function to load CSS
 def load_css(file_name):
@@ -29,15 +30,14 @@ def get_recommendations(text, experience, language, employment_type, location, d
         prompt = f"{text}\n\nI have a job posting and I want to improve it based on certain criteria. The ideal candidate for my job posting has the following characteristics: {employment_type}, {experience}, {location}, {driving_license} and {education}. Can you provide an overall assessment of the job posting and comment on specific sentences, words, or paragraphs that can be improved or changed to better attract the ideal candidate? Write the answer in English."
         system_message = "You are a helpful assistant."
 
-    response = client.chat_completions.create(
-        model="ft:gpt-3.5-turbo-0125:personal::9N4jESmA",  # Use your fine-tuned chat model
-        messages=[
-            {"role": "system", "content": system_message},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=500,
-        temperature=0.7)
-    return response.choices[0].message['content']
+    response = client.chat.completions.create(model="gpt-3.5-turbo",
+    messages=[
+        {"role": "system", "content": system_message},
+        {"role": "user", "content": prompt}
+    ],
+    max_tokens=500,
+    temperature=0.7)
+    return response.choices[0].message.content
 
 # Function to read file
 def read_file(file):
@@ -60,10 +60,6 @@ def read_file(file):
 
 # Define pages
 def main_page():
-
-    # Information text
-    st.markdown('Welcome to the easier way of improving your job posting to the targeted candidate!')
-    
     st.title('CoRecruit AI')
 
     uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
@@ -84,9 +80,18 @@ def main_page():
     # About Us Section
     st.markdown("""
     <hr>
-    <h4>About Us</h4>
+    <h2>About Us</h2>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
+    <h3>Our Team</h3>
+    <ul>
+        <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
+        <li>Jakob Delin</li>
+        <li>Molly Korse (<a href="https://www.linkedin.com/in/molly-korse-a4754b192/" target="_blank">LinkedIn</a>)</li>
+        <li>Peter Markus (<a href="https://www.linkedin.com/in/kedinpetmark/" target="_blank">LinkedIn</a>)</li>
+        <li>Tobias Magnusson (<a href="https://www.linkedin.com/in/tobias-magnusson-333650194/" target="_blank">LinkedIn</a>)</li>
+    </ul>
+    <p>Check out our GitHub repository: <a href="https://github.com/BarreBN/CoRecruit.git" target="_blank">CoRecruit</a></p>
     """, unsafe_allow_html=True)
 
 def tutorial_page():
@@ -118,16 +123,16 @@ load_css('styles.css')
 
 # Top navigation with clickable titles
 st.markdown("""
-<nav style="display: flex; justify-content: space-around; background-color: #transparent; padding: 10px;">
-    <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
-    <a href="?page=tutorial" style="text-decoration: none; font-weight: normal;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
-    <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
+<nav style="display: flex; justify-content: space-around; background-color: #f0f0f0; padding: 10px;">
+    <a href="?page=main" style="text-decoration: none; font-weight: bold;" onclick="loadPage('main'); return false;">Home</a>
+    <a href="?page=tutorial" style="text-decoration: none; font-weight: bold;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
+    <a href="?page=faq" style="text-decoration: none; font-weight: bold;" onclick="loadPage('faq'); return false;">FAQ</a>
 </nav>
 <hr>
 """, unsafe_allow_html=True)
 
 # Render the selected page based on URL parameter
-query_params = st.experimental_get_query_params()
+query_params = st.query_params
 page = query_params.get("page", ["main"])[0]
 
 if page == "main":
@@ -140,7 +145,7 @@ if page == "main":
     location = st.sidebar.selectbox('On-site', ['Yes', 'No', 'Hybrid'])
     education = st.sidebar.selectbox('Education', ['Not applicable', 'Upper Secondary School', 'Higher Education'])
     driving_license = st.sidebar.checkbox('Driving License')
-    
+
     main_page()
 elif page == "tutorial":
     tutorial_page()
