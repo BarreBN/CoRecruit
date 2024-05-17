@@ -22,6 +22,9 @@ def load_css(file_name):
 # Load the CSS
 load_css('styles.css')
 
+<br>
+<br>
+
 
 def get_recommendations(text, experience, language, employment_type, location, driving_license, education):
     if language == 'Swedish':
@@ -61,8 +64,6 @@ def read_file(file):
         return ""
 
 # Define pages
-<br>
-<br>
 def main_page():
     st.title('CoRecruit AI')
 
