@@ -133,8 +133,6 @@ def set_page_config():
     st.markdown("""
         <style>
         .markdown-text-container {
-            <br>
-            <br>
             background-color: transparent !important;
             border: none !important;
             margin-top: -20px !important;  /* Adjust this value as needed */
@@ -144,7 +142,6 @@ def set_page_config():
 
 set_page_config()
 
-
 st.markdown("""
 <nav style="display: flex; justify-content: space-evenly; background-color: transparent; padding: 1px;">
     <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
@@ -152,6 +149,10 @@ st.markdown("""
     <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
 </nav>
 """, unsafe_allow_html=True)
+
+# Add empty space
+for _ in range(50):
+    st.empty()
 
 # Render the selected page based on URL parameter
 query_params = st.query_params
