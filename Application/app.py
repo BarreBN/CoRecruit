@@ -112,8 +112,15 @@ def faq_page():
 # Load CSS
 load_css('styles.css')
 
-# Top navigation
-page = st.radio("Navigate", ["Home", "Tutorial", "FAQ"], index=0, horizontal=True)
+# Top navigation with clickable titles
+st.markdown("""
+<nav style="display: flex; justify-content: space-around; background-color: #f0f0f0; padding: 10px;">
+    <a href="#main-page" style="text-decoration: none; font-weight: bold;">Home</a>
+    <a href="#tutorial-page" style="text-decoration: none; font-weight: bold;">Tutorial</a>
+    <a href="#faq-page" style="text-decoration: none; font-weight: bold;">FAQ</a>
+</nav>
+<hr>
+""", unsafe_allow_html=True)
 
 # Sidebar options
 st.sidebar.title('Options')
@@ -125,10 +132,25 @@ location = st.sidebar.selectbox('On-site', ['Yes', 'No', 'Hybrid'])
 education = st.sidebar.selectbox('Education', ['Not applicable', 'Upper Secondary School', 'Higher Education'])
 driving_license = st.sidebar.checkbox('Driving License')
 
-# Render the selected page
-if page == "Home":
+# Render the selected page based on hash in URL
+page = st.experimental_get_query_params().get("page", ["main"])[0]
+
+if page == "main":
     main_page()
-elif page == "Tutorial":
+elif page == "tutorial":
     tutorial_page()
-else:
+elif page == "faq":
     faq_page()
+
+# JavaScript to change URL hash without reloading the page
+st.markdown("""
+<script type="text/javascript">
+    document.querySelectorAll('nav a').forEach((el) => {
+        el.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.history.pushState({}, '', `?page=${el.getAttribute('href').substring(1)}`);
+            window.dispatchEvent(new Event('hashchange'));
+        });
+    });
+</script>
+""", unsafe_allow_html=True)
