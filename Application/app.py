@@ -82,9 +82,13 @@ def main_page():
 # About Us Section
     st.markdown("""
     <hr>
+    <br>
+    <br>
     <h2>About Us</h2>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
+    <br>
+    <br>
     <h3>Our Team</h3>
     <ul>
         <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
