@@ -63,10 +63,10 @@ load_css('styles.css')
 
 # Information text with image
 st.markdown("""
-Improve your job ads with a simple input!
-y dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsu
-<img src="https://static.instatext.io/prod/uploads/2019/12/07145707/smartmockups_medium.jpg" style="float: center; width: 200px; height: 200px;">
+<div style="display: flex; align-items: center;">
+    <img src="https://static.instatext.io/prod/uploads/2019/12/07145707/smartmockups_medium.jpg" style="width: 50px; height: 50px;">
+    <p>This is some information text.</p>
+</div>
 """, unsafe_allow_html=True)
 
 # Sidebar
