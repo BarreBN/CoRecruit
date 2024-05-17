@@ -84,11 +84,9 @@ def main_page():
     st.markdown("""
     <hr>
     <br>
-    <br>
     <h2>About Us</h2>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
-    <br>
     <br>
     <h3>Our Team</h3>
     <ul>
@@ -165,9 +163,7 @@ if page == "main":
 
     # Add some space
     st.sidebar.markdown('&nbsp;', unsafe_allow_html=True)
-    # Add some space
-    st.sidebar.markdown('&nbsp;', unsafe_allow_html=True)
-
+    
     experience = st.sidebar.slider('Experience (years)', 0, 10)
     language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
     employment_type = st.sidebar.selectbox('Employment Type', ['Full Time', 'Part Time'])
