@@ -15,22 +15,7 @@ def set_page_config():
             background-color: transparent !important;
             border: none !important;
         }
-        </style>
-    """, unsafe_allow_html=True)
-
-set_page_config()
-
-def set_page_config():
-    st.markdown("""
-        <style>
-        .markdown-text-container {
-            background-color: transparent !important;
-            border: none !important;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-set_page_config()
+        </style>)
 
 st.markdown("""
 <nav style="display: flex; justify-content: space-around; background-color: transparent; padding: 10px;">
