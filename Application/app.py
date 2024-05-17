@@ -136,7 +136,7 @@ def set_page_config():
 set_page_config()
 
 # Add empty space
-for _ in range(5):
+for _ in range(20):
     st.empty()
 
 st.markdown("""
