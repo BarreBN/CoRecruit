@@ -113,7 +113,7 @@ def faq_page():
 load_css('styles.css')
 
 # Top navigation
-page = st.selectbox("Navigate", ["Home", "Tutorial", "FAQ"], index=0)
+page = st.radio("Navigate", ["Home", "Tutorial", "FAQ"], index=0, horizontal=True)
 
 # Sidebar options
 st.sidebar.title('Options')
