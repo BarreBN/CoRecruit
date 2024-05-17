@@ -112,9 +112,11 @@ def faq_page():
 # Load CSS
 load_css('styles.css')
 
-# Sidebar
-st.sidebar.title('Navigation')
-page = st.sidebar.radio("Go to", ["Home", "Tutorial", "FAQ"])
+# Top navigation
+page = st.selectbox("Navigate", ["Home", "Tutorial", "FAQ"], index=0)
+
+# Sidebar options
+st.sidebar.title('Options')
 
 experience = st.sidebar.slider('Experience (years)', 0, 10)
 language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
