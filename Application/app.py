@@ -61,8 +61,11 @@ def read_file(file):
 # Load CSS
 load_css('styles.css')
 
-# Information text
-st.markdown('This is some information text.')
+# Information text with image
+st.markdown("""
+This is some information text. 
+<img src="https://static.instatext.io/prod/uploads/2019/12/07145707/smartmockups_medium.jpg" style="float: right; width: 50px; height: 50px;">
+""", unsafe_allow_html=True)
 
 # Sidebar
 st.sidebar.title('Options')
