@@ -63,8 +63,15 @@ def read_file(file):
 
 # Define pages
 def main_page():
-    # Information text
-    st.markdown('Add the job post and let us improve the way you connect to your ideal candidate!')
+    st.markdown("""
+    This is the first line.  
+    This is the second line, directly below the first.
+
+    This is a new paragraph, separated by a blank line.
+    """)
+
+    # Add some space at the top of the page
+    st.markdown('&nbsp;', unsafe_allow_html=True)
 
     st.title('CoRecruit AI')
 
