@@ -142,8 +142,6 @@ def set_page_config():
 
 set_page_config()
 
-# Add some space at the top of the page
-st.markdown('&nbsp;', unsafe_allow_html=True)
 
 # Your existing code
 st.markdown("""
@@ -153,6 +151,12 @@ st.markdown("""
     <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
 </nav>
 """, unsafe_allow_html=True)
+
+# Add some space at the top of the page
+st.markdown('&nbsp;', unsafe_allow_html=True)
+
+# Add some space at the top of the page
+st.markdown('&nbsp;', unsafe_allow_html=True)
 
 # Render the selected page based on URL parameter
 query_params = st.query_params
