@@ -22,6 +22,10 @@ def load_css(file_name):
 # Load the CSS
 load_css('styles.css')
 
+# Add empty space
+for _ in range(10):
+    st.empty()
+
 def get_recommendations(text, experience, language, employment_type, location, driving_license, education):
     if language == 'Swedish':
         prompt = f"{text}\n\nJag har en jobbannons och jag vill förbättra den baserat på vissa kriterier. Den ideala kandidaten för min jobbannons har följande egenskaper: {employment_type}, {experience}, {location}, {driving_license} och {education}. Kan du ge en översiktlig bedömning av jobbannonsen och kommentera specifika meningar, ord eller stycken som kan förbättras eller ändras för att bättre attrahera den ideala kandidaten? Skriv svaret på Svenska."
