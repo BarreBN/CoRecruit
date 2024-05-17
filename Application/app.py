@@ -81,7 +81,7 @@ def main_page():
     # About Us Section
     st.markdown("""
     <hr>
-    <h2>About Us</h2>
+    <h4>About Us</h4>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
     <h3>Our Team</h3>
@@ -128,6 +128,7 @@ def set_page_config():
         .markdown-text-container {
             background-color: transparent !important;
             border: none !important;
+            margin-top: -50px !important;  /* Adjust this value as needed */
         }
         </style>
     """, unsafe_allow_html=True)
