@@ -81,26 +81,29 @@ def main_page():
 
 
     
-    # About Us Section
-    st.markdown("""
-    <hr>
-    <h4>About Us</h4>
-    <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
-    Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
-    <h3>Our Team</h3>""")
-     # Add empty space
-    for _ in range(10):
-        st.empty()
-    st.markdown("""
-    <ul>
-        <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
-        <li>Jakob Delin</li>
-        <li>Molly Korse (<a href="https://www.linkedin.com/in/molly-korse-a4754b192/" target="_blank">LinkedIn</a>)</li>
-        <li>Peter Markus (<a href="https://www.linkedin.com/in/kedinpetmark/" target="_blank">LinkedIn</a>)</li>
-        <li>Tobias Magnusson (<a href="https://www.linkedin.com/in/tobias-magnusson-333650194/" target="_blank">LinkedIn</a>)</li>
-    </ul>
-    <p>Check out our GitHub repository: <a href="https://github.com/BarreBN/CoRecruit.git" target="_blank">CoRecruit</a></p>
-    """, unsafe_allow_html=True)
+   # About Us Section
+st.markdown("""
+---
+#### About Us
+Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
+Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.
+
+### Our Team
+""")
+
+# Add empty space
+for _ in range(10):
+    st.empty()
+
+st.markdown("""
+- Brandon Nilsson ([LinkedIn](https://www.linkedin.com/in/b-nilsson/))
+- Jakob Delin
+- Molly Korse ([LinkedIn](https://www.linkedin.com/in/molly-korse-a4754b192/))
+- Peter Markus ([LinkedIn](https://www.linkedin.com/in/kedinpetmark/))
+- Tobias Magnusson ([LinkedIn](https://www.linkedin.com/in/tobias-magnusson-333650194/))
+
+Check out our GitHub repository: [CoRecruit](https://github.com/BarreBN/CoRecruit.git)
+""", unsafe_allow_html=True)
     
 
 def tutorial_page():
