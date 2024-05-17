@@ -22,9 +22,6 @@ def load_css(file_name):
 # Load the CSS
 load_css('styles.css')
 
-# Add empty space
-for _ in range(10):
-    st.empty()
 
 def get_recommendations(text, experience, language, employment_type, location, driving_license, education):
     if language == 'Swedish':
@@ -82,6 +79,12 @@ def main_page():
             else:
                 st.error("Failed to extract text from the uploaded file.")
 
+
+    # Add empty space
+    for _ in range(10):
+        st.empty()
+
+    
     # About Us Section
     st.markdown("""
     <hr>
