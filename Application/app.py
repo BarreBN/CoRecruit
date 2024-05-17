@@ -63,6 +63,9 @@ def read_file(file):
 
 # Define pages
 def main_page():
+    # Information text
+    st.markdown('Add the job post and let us improve the way you connect to your ideal candidate!')
+
     st.title('CoRecruit AI')
 
     uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
