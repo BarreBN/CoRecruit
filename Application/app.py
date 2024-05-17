@@ -22,8 +22,6 @@ def load_css(file_name):
 # Load the CSS
 load_css('styles.css')
 
-<br>
-<br>
 
 
 def get_recommendations(text, experience, language, employment_type, location, driving_license, education):
@@ -134,6 +132,8 @@ load_css('styles.css')
 def set_page_config():
     st.markdown("""
         <style>
+        <br>
+        <br>
         .markdown-text-container {
             background-color: transparent !important;
             border: none !important;
