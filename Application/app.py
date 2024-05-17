@@ -166,6 +166,9 @@ if page == "main":
     # Sidebar options only for the main page
     st.sidebar.title('Options')
 
+    # Add some space at the top of the page
+    st.markdown('&nbsp;', unsafe_allow_html=True)
+
     experience = st.sidebar.slider('Experience (years)', 0, 10)
     language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
     employment_type = st.sidebar.selectbox('Employment Type', ['Full Time', 'Part Time'])
