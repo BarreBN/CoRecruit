@@ -151,7 +151,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Add empty space
-for _ in range(50):
+for _ in range(10):
     st.empty()
 
 # Render the selected page based on URL parameter
@@ -175,14 +175,3 @@ elif page == "tutorial":
 elif page == "faq":
     faq_page()
 
-# JavaScript to handle navigation without page reload
-st.markdown("""
-<script type="text/javascript">
-    function loadPage(page) {
-        const urlParams = new URLSearchParams(window.location.search);
-        urlParams.set('page', page);
-        window.history.pushState({}, '', `${window.location.pathname}?${urlParams.toString()}`);
-        window.dispatchEvent(new Event('popstate'));
-    }
-</script>
-""", unsafe_allow_html=True)
