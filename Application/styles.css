@@ -58,7 +58,7 @@ button {
 
 /* Styling for the sidebar */
 [data-testid="stSidebar"] .css-1d391kg {
-    padding-top: 50px; /* Adjust padding */
+    padding-top: 10px; /* Adjust padding */
 }
 
 /* Styling the radio buttons */
