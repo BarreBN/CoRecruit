@@ -132,9 +132,9 @@ load_css('styles.css')
 def set_page_config():
     st.markdown("""
         <style>
-        <br>
-        <br>
         .markdown-text-container {
+            <br>
+            <br>
             background-color: transparent !important;
             border: none !important;
             margin-top: -20px !important;  /* Adjust this value as needed */
