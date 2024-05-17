@@ -39,26 +39,6 @@ def get_recommendations(text, experience, language, employment_type, location, d
     temperature=0.7)
     return response.choices[0].message.content
 
-def set_page_config():
-    st.markdown("""
-        <style>
-        .markdown-text-container {
-            background-color: transparent !important;
-            border: none !important;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-set_page_config()
-
-st.markdown("""
-<nav style="display: flex; justify-content: space-around; background-color: transparent; padding: 10px;">
-    <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
-    <a href="?page=tutorial" style="text-decoration: none; font-weight: normal;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
-    <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
-</nav>
-<hr>
-""", unsafe_allow_html=True)
 
 # Function to read file
 def read_file(file):
@@ -142,9 +122,20 @@ def faq_page():
 # Load CSS
 load_css('styles.css')
 
-# Top navigation with clickable titles
+def set_page_config():
+    st.markdown("""
+        <style>
+        .markdown-text-container {
+            background-color: transparent !important;
+            border: none !important;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+
+set_page_config()
+
 st.markdown("""
-<nav style="display: flex; justify-content: space-around; background-color: #transparent; padding: 10px;">
+<nav style="display: flex; justify-content: space-around; background-color: transparent; padding: 10px;">
     <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
     <a href="?page=tutorial" style="text-decoration: none; font-weight: normal;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
     <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
