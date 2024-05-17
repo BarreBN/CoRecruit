@@ -86,12 +86,13 @@ def main_page():
     <hr>
     <h4>About Us</h4>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
-    Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
+    Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p
+    )
+ # Add empty space
+for _ in range(10):
+    st.empty()
     
-    # Add empty space
-    for _ in range(10):
-        st.empty()
-
+    st.markdown("""
     <h3>Our Team</h3>
     <ul>
         <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
