@@ -13,7 +13,7 @@ body {
 
 /* Styling for the textbox */
 #myTextbox {
-    width: 100%; /* Full width */
+    width: 50%; /* Full width */
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
