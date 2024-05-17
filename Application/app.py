@@ -155,9 +155,6 @@ st.markdown("""
 # Add some space at the top of the page
 st.markdown('&nbsp;', unsafe_allow_html=True)
 
-# Add some space at the top of the page
-st.markdown('&nbsp;', unsafe_allow_html=True)
-
 # Render the selected page based on URL parameter
 query_params = st.query_params
 page = query_params.get("page", ["main"])[0]
@@ -166,8 +163,8 @@ if page == "main":
     # Sidebar options only for the main page
     st.sidebar.title('Options')
 
-    # Add some space at the top of the page
-    st.markdown('&nbsp;', unsafe_allow_html=True)
+    # Add some space
+    st.sidebar.markdown('&nbsp;', unsafe_allow_html=True)
 
     experience = st.sidebar.slider('Experience (years)', 0, 10)
     language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
