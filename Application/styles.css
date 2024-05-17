@@ -1,4 +1,5 @@
 /* styles.css */
+
 /* General body styling */
 body {
     font-family: Arial, sans-serif;
@@ -7,39 +8,21 @@ body {
     background-color: #00547e; /* Background color */
 }
 
-def set_page_config():
-    st.markdown("""
-        <style>
-        .markdown-text-container {
-            background-color: transparent !important;
-            border: none !important;
-        }
-        </style>
-    """, unsafe_allow_html=True)
-
-set_page_config()
-
-st.markdown("""
-<nav style="display: flex; justify-content: space-around; background-color: transparent; padding: 10px;">
-    <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
-    <a href="?page=tutorial" style="text-decoration: none; font-weight: normal;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
-    <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
-</nav>
-<hr>
-""", unsafe_allow_html=True)
-
 /* Styling for h1 */
 h1 {
     color: #0046af;
     font-family: Papyrus, sans-serif;
 }
+
 /* Styling for highlighted text in h1 */
 h1 .highlight {
     color: #ff0000; /* Change to your preferred color */
     font-weight: bold;
 }
+
 <input type="text" name="myTextbox" id="myTextbox">
     <!-- Rest of your HTML content -->
+
 /* Styling for the textbox */
 #myTextbox {
     width: 50%; /* Full width */
@@ -47,11 +30,13 @@ h1 .highlight {
     margin: 8px 0;
     box-sizing: border-box;
 }
+
 /* Styling for other headers */
 h2, h3, h4, h5, h6 {
     color: #0046af;
     font-family: Papyrus, sans-serif; /* Add your preferred font here */
 }
+
 /* Styling for buttons */
 button {
     background-color: #4CAF50; /* Green */
@@ -63,19 +48,23 @@ button {
     font-family: Papyrus;
     display: inline-block;
 }
+
 /* Custom styles for Streamlit sidebar */
 [data-testid="stSidebar"] {
     background-color: #00488838; /* Dark background for sidebar */
     color: white;
 }
+
 /* Styling for the sidebar */
 [data-testid="stSidebar"] .css-1d391kg {
     padding-top: 10px; /* Adjust padding */
 }
+
 /* Styling the radio buttons */
 [data-testid="stSidebar"] .css-1inwz65 {
     color: white;
 }
+
 /* Main content adjustments */
 .main .block-container {
     padding-top: 1rem; /* Adjust top padding */
