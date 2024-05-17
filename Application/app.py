@@ -88,9 +88,9 @@ def main_page():
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p
     )
- # Add empty space
-for _ in range(10):
-    st.empty()
+     # Add empty space
+    for _ in range(10):
+        st.empty()
     
     st.markdown("""
     <h3>Our Team</h3>
