@@ -165,6 +165,8 @@ if page == "main":
 
     # Add some space
     st.sidebar.markdown('&nbsp;', unsafe_allow_html=True)
+    # Add some space
+    st.sidebar.markdown('&nbsp;', unsafe_allow_html=True)
 
     experience = st.sidebar.slider('Experience (years)', 0, 10)
     language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
