@@ -87,6 +87,10 @@ def main_page():
     st.markdown("""
     <hr>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <h2>About Us</h2>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
