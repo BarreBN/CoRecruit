@@ -64,10 +64,10 @@ def read_file(file):
 # Define pages
 def main_page():
     st.markdown("""
-    This is the first line.  
-    This is the second line, directly below the first.
+    Want to optimize your job post?
+    Want to connect to the ideal candidate and speak their language?
 
-    This is a new paragraph, separated by a blank line.
+    Just add your job post and let us work our magic! 
     """)
 
     # Add some space at the top of the page
