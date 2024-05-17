@@ -8,18 +8,6 @@ body {
     background-color: #00547e; /* Background color */
 }
 
-<input type="text" name="myTextbox" id="myTextbox">
-    <!-- Rest of your HTML content -->
-
-/* Styling for the textbox */
-#myTextbox {
-    width: 50%; /* Full width */
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-
-
 /* Styling for h1 */
 h1 {
     color: #0046af;
@@ -30,6 +18,17 @@ h1 {
 h1 .highlight {
     color: #ff0000; /* Change to your preferred color */
     font-weight: bold;
+}
+
+<input type="text" name="myTextbox" id="myTextbox">
+    <!-- Rest of your HTML content -->
+
+/* Styling for the textbox */
+#myTextbox {
+    width: 50%; /* Full width */
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 /* Styling for other headers */
