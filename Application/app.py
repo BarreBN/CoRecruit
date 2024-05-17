@@ -135,7 +135,7 @@ def set_page_config():
 set_page_config()
 
 st.markdown("""
-<nav style="display: flex; justify-content: space-around; background-color: transparent; padding: 1px;">
+<nav style="display: flex; justify-content: space-evenly; background-color: transparent; padding: 1px;">
     <a href="?page=main" style="text-decoration: none; font-weight: normal;" onclick="loadPage('main'); return false;">Home</a>
     <a href="?page=tutorial" style="text-decoration: none; font-weight: normal;" onclick="loadPage('tutorial'); return false;">Tutorial</a>
     <a href="?page=faq" style="text-decoration: none; font-weight: normal;" onclick="loadPage('faq'); return false;">FAQ</a>
