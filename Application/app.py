@@ -62,7 +62,7 @@ def read_file(file):
 def main_page():
 
     # Information text
-    st.markdown('This is some information text.')
+    st.markdown('Welcome to the easier way of improving your job posting to the targeted candidate!')
     
     st.title('CoRecruit AI')
 
@@ -84,7 +84,7 @@ def main_page():
     # About Us Section
     st.markdown("""
     <hr>
-    <h2>About Us</h2>
+    <h3>About Us</h3>
     <p>Welcome to CoRecruit AI, a platform designed to help you refine your job postings and attract the ideal candidates.
     Our AI-driven recommendations ensure that your job ads are optimized for clarity, attractiveness, and relevance.</p>
     """, unsafe_allow_html=True)
