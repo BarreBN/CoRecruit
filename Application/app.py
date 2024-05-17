@@ -61,6 +61,9 @@ def read_file(file):
 # Load CSS
 load_css('styles.css')
 
+# Information text
+st.markdown('This is some information text.')
+
 # Sidebar
 st.sidebar.title('Options')
 
