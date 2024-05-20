@@ -1,0 +1,900 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/350287565
+Efficient recruitment with effective job advertisement: an exploratory
+literature review and research agenda
+Article  in  International Journal of Organization Theory and Behavior · March 2021
+DOI: 10.1108/IJOTB-04-2020-0052
+CITATIONS
+4
+READS
+5,881
+2 authors:
+Ali Mahjoub
+Allameh Tabataba'i University
+1 PUBLICATION   4 CITATIONS   
+SEE PROFILE
+Peter M Kruyen
+Radboud University
+53 PUBLICATIONS   1,714 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Peter M Kruyen on 20 May 2022.
+The user has requested enhancement of the downloaded file.
+Efficient recruitment with effective
+job advertisement: an exploratory
+literature review and
+research agenda
+Ali Mahjoub
+Allameh Tabataba’i University, Tehran, Iran, and
+Peter Mathieu Kruyen
+Institute for Management Research, Radboud University, Nijmegen, The Netherlands
+Abstract
+Purpose – This article presents an exploratory, narrative review on job ads research. It aims to explore the key
+features of job ads that have been investigated in previous researches; the way these features have been
+investigated; and to draw important lessons that those studies teach us about the impact of job ad features on
+the target population.
+Design/methodology/approach – In this study, the scoping-review procedure is applied. Its systematic
+procedure enables scholars to provide a broad overview of a topic, map the key concepts underpinning a
+research area, clarify the conceptual boundaries of a topic, and also to incorporate a numerical summary and
+qualitative thematic analysis. The review was conducted based on a systematic study of 243 peer-reviewed
+articles and publications in the grey literature.
+Findings – The findings show that seven job ad features seem to have important impacts on (potential)
+applicants, which we illustrate as a know-how framework. Eight main theories are used, and a wide array of
+research methods are applied. However, the study concludes that after more than four decades of research,
+there is still a limited understanding about the concrete effects of job ad features.
+Originality/value – This paper synthesizes the existing knowledge, answers three exploratory questions
+regarding job ad features and draws theoretical and practical lessons from previous studies. In the interest of
+conducting future studies and providing a research agenda, a typology of theoretical perspectives for the study
+of job ads is also presented. The article also presents lessons for practitioners by providing a know-how
+framework on the usage of job ads.
+Keywords Job advertisement, Job announcement, Job posting, Recruitment, Communication, Scoping review
+Paper type Research paper
+1. Introduction
+As the quality of the workforce is important for organizational success, organizations spend
+considerable efforts attracting and selecting suited applicants. To find and attract suited
+applicants, the recruitment process plays an important role (Acikgoz, 2019; Ahmad and
+Schroeder, 2002). Mistakes in the recruitment process may have destructive consequences for
+organizations; seeking to correct those mistakes is not only a costly (Molander and Winterton,
+1994, in: Blackman, 2006; Brencic and Norris, 2009; Burdett and Cunningham, 1998; Mathews
+and Redman, 2001) and time-consuming activity (Snape et al., 1994), but it can also damage
+firms’ growth and reputation (Sisodia and Chowdhary, 2012).
+Job advertisements, sometimes labeled as “employment advertisements,” “job
+announcements” or “job postings” – defined as “documents acknowledged through public
+Recruitment
+with effective
+job
+advertisement
+The authors would like to thank the two anonymous reviewers and Dr. Huiping Xian, the associate
+editor, for their helpful, constructive and insightful comments on an earlier draft of this article.
+The first author wants to thank Allameh Tabataba’i University for providing the financial means for
+spending a semester at Radboud University in 2018, where the major part of this research was conducted.
+Both authors want to thank Radboud University for the facilitation of the process to conduct this study.
+Received 15 April 2020
+Revised 4 November 2020
+30 January 2021
+Accepted 4 March 2021
+International Journal of
+Organization Theory & Behavior
+© Emerald Publishing Limited
+1093-4537
+DOI 10.1108/IJOTB-04-2020-0052
+The current issue and full text archive of this journal is available on Emerald Insight at:
+https://www.emerald.com/insight/1093-4537.htm
+media for the company or the organization to find the right talents to fill in vacant positions”
+(Fu, 2012) – play an important role in the early stages of the recruitment process (Barber, 1998;
+Collins and Stevens, 2002; Schmidt et al., 2015; Williamson et al., 2008). Job ads are key bridges
+between recruiters and job applicants (Mathews and Redman, 1998), and organizations hope
+that potentially suited applicants will be motivated to apply based on reading them.
+Therefore, it is not surprising that researchers have turned their attention to investigating
+different elements of job ads. However, this field of study is still underdeveloped as the
+literature is scattered across several disciplines, serious theoretical deficiencies are noticeable in
+previous research, and there is also a lack of guiding principles for practitioners. There are also
+a number of reports showing gaps, weaknesses and criticisms regarding our understanding in
+the area of job ads. These gaps include a growing lack of clarity regarding the skills,
+competencies and qualifications required for some professions (Anne Kennan et al., 2006), a
+scarcity of studies on the impacts of individual differences on reactions to job advertisements
+(Walkeret al., 2008), assigning a passive role to job seekers as “receivers” of information in the
+related studies (Highouse and Hoffman, 2001), a lack of understanding of job seekers’reactions
+to recruitment messages mostly by taking a microlevel approach (Reeve et al., 2006), a lack of
+theoretical integration in recruitment research (Breaugh and Starke, 2000), a deficiency of
+empirical research on job advertisements vis-a -vis studies on other recruitment practices (Jones
+et al., 2006; Reeve and Schultz, 2004), and inconsistencies among researchers’ methodological
+approaches (for selecting, collecting, analyzing, and presenting the data), which makes it
+difficult to compare findings and draw definitive conclusions (Kim and Angnakoon, 2016).
+Hence, given the status of the field, in this article, we review the literature using an
+exploratory scoping method with an iterative coding procedure to synthesize the existing
+knowledge to answer the following three exploratory questions: (1) What types of features of
+job ads have been studied? (2) How have these features been investigated? (3) What do these
+studies teach us about the impacts of these features on potential applicants?
+The remainder of this article is structured as follows. In Section 2, we explain the
+methodological details of our study. In Section 3, we provide descriptive results, in particular,
+the research methodologies applied and the theories used in the reviewed studies; we also
+discuss the distinctive features of job ads that have been found to have an important impact
+on ad outcomes. In Section 4, we discuss the results. Finally, in Section 5, we present a research
+agenda for future studies in which we advocate using the identified theories to obtain a better
+understanding of the roles the identified elements play in attracting suited candidates.
+2. Method
+2.1 Literature search strategy
+We followed the general procedure for scoping reviews as outlined by The Joanna Briggs
+Institute (Peters et al., 2015). A scoping review is a rigorous and transparent method that
+helps researchers provide a narrative account of the existing studies; examine the domain,
+extent and nature of the studies; and disseminate a summarized report (Arksey and O’Malley,
+2005). This method, with its systematic procedure, enables scholars to provide a broad
+overview of a topic, map the key concepts underpinning a research area, clarify the
+conceptual boundaries of a topic, and incorporate a numerical summary and qualitative
+thematic analysis (Peters et al., 2015).
+We decided to include (1) studies that were written in English (for reasons of
+understanding) and (2) both published and unpublished articles and gray literature (such
+as unpublished papers, working papers, reports, conference papers and book chapters) to
+tackle potential publication bias. No limitations were set on the publication date. Considering
+the aim of the study and to minimize bias by ensuring comprehensive coverage (Weed, 2008),
+the search keywords and terms were selected by close reading of the relevant literature; these
+IJOTB
+terms were as follows: job, vacancy, position(s), recruitment, advertisement, ad(s), posting(s),
+and announcement.
+To identify potentially relevant studies, we started by searching the Web of Science
+on February 16, 2018 using the following Boolean operator: (job near/0 ads) or (job
+near/0 advertis*) or (job near/0 posting$) or (job near/0 description) or (vacancy near/
+0 post*) or (vacancy near/0 announcement) or (recruitment near/0 ads) or (recruitment
+near/0 advertis*) or (recruitment near/0 post*) or (recruitment near/0 announc*) or
+(position near/0 ads) or (position near/0 advertis*). The application of these keywords
+resulted in 1665 hits. Given the focus of our research on the organizational and
+managerial literature, we decided next to limit our search to the following five
+research domains: management, business, industrial labor relations, communication,
+and public administration. This specification resulted in a list of 283 potentially
+relevant articles. We replicated our literature search in Business Source Complete on
+February 21, 2018 using the same Boolean operator. In this database, we found 648
+hits. After removing 85 duplicates, we ended up with a preliminary sample of 846
+articles.
+Next, the first author screened these articles to determine eligibility. Only articles in
+which job ads were analyzed either as primary topics or used as the primary source to
+study a particular topic were included. After reading all abstracts, we kept 176 articles
+in the sample. Seven articles were additionally removed after reading the full text of all
+articles because they did not fit the earlier criteria. Finally, the second author validated
+the selection made by the first author by assessing the eligibility of a random selection
+of 170 articles (20%). The initial degree of discrepancy was 12%; after discussing these
+discrepancies, in all cases, both authors agreed on the accuracy and correctness of
+inclusion/exclusion decisions made by the first author. Therefore, 169 articles from
+these two databases remained.
+Because the Web of Science and Business Source Complete only include indexed
+journals, in January 2019, we decided to conduct a complementary search on Google
+Scholar and to send out an email to experts to discover relevant unpublished work,
+nonpeer reviewed articles (in nonindexed journals), and studies published in the gray
+literature. Specifically, on September 19, 2019, after conducting a search in Google
+Scholar using the same keywords applied in the Web of Science and Business Source
+Complete, we reviewed the first 15 pages of Google Scholar results, which led to 150
+more complementary articles. After removing 21 duplicated articles and excluding 63
+publications that did not meet our inclusion criteria, 66 articles remained and were
+coded. Finally, the list of coded articles was sent to 20 experienced researchers in the
+field asking them if they were aware of any important missing articles, which has
+some implications covering our research main question. The experts were chosen
+because they recently published research articles on features of job ads. Based on the
+responses of 4 contacted experts, 8 more articles were found and coded. Figure 1
+displays the flow of information through the different phases of the study process.
+2.2 Coding scheme
+For each article, we coded the following: (1) bibliographical information; (2)
+methodological features, i.e., research method, level of analysis, sample, and sector;
+(3) theoretical perspectives applied; and (4) the stated contribution, both theoretical
+and practical. To fully explore the status of this field of study and what is known
+about job ad features and their effects, we used a dual approach. That is, we not only
+utilized all coded articles, but we also considered relevant cited material in the coded
+articles.
+Recruitment
+with effective
+job
+advertisement
+Figure 1.
+Identification of
+relevant studies
+IJOTB
+3. Results
+3.1 General characteristics of job ad-related studies
+In total, 243 articles were systematically reviewed. Most of the coded articles (88%) were
+published in peer-reviewed journals; however, 12% of them were nonreviewed and gray
+literature materials. The selected articles were published between 1973 and 2019. Over time,
+we found an increase in the number of articles studying job ads, especially since 2003. The
+majority of the articles contained empirical research (97%). Most of the articles used
+qualitative research methods (66%), mainly content analysis (62%). Quantitative methods
+were contained in 30% of the articles, and the rest of the articles used mixed methods (4%).
+Most of these articles justified the use of job ads as a data source by invoking the richness of
+job ads as secondary data (e.g., Kuokkanen et al. (2013)) or even its importance in providing
+primary data to study other organizational/managerial variables (e.g., Story et al. (2016)).
+The distribution of articles by level of analysis, sector, and data source is presented in
+Figure 2. As shown in Figure 2, job ad studies focus on six different levels of analysis, of
+which the “occupational” level, mostly seeking to analyze job ad content to discover
+knowledge, skills, and abilities (KSAs) related to specific professions, has received the most
+attention (42%). Next, the “individual level” of analysis (23%) is used to diagnose the
+perception/reaction of people encountering different types of job ads, and “multilevel”
+scrutiny is also used (13%). Regarding sector and organizational context, data were collected
+from employees or job ads in both nonprofit and for-profit sectors in 32% of the studies, in the
+“for-profit” sector in 15% of the studies and in the “nonprofit” sector in 11% of the studies.
+Nevertheless, a considerable portion of articles (42%) did not disclose the context and sector,
+which poses some challenges for interpreting their results as sector-specific characteristics
+have diverse and influential implications for multiple stakeholders.
+Several sources of data were used to study job ads. Here,“online ads” constitute the largest
+proportion (47%), and these data can better describe the importance of online job ads for
+researchers. “Online ads” are followed by “people” (27%) (using questionnaires, observations
+and/or interviews) and “printed ads”(12%). Finally, it is worth noting that most of the studies
+were conducted in the US (38%), Australia (10%), and the UK (9%), showing the dominance of
+Figure 2.
+Distribution of articles
+by level of analysis,
+sector and data source
+Recruitment
+with effective
+job
+advertisement
+job ad studies in developed countries and the limited attention given to this topic in
+developing countries.
+3.2 Theoretical perspectives in the study of job ads
+Using theories is an indispensable part of the research process in organization sciences and
+can prevent logical fallacies and make researches credible and practically applicable
+(Ashkanasy, 2016). In job ad studies, theories can help to develop sound explanations and to
+generalize findings and can also help readers better comprehend the outcomes of job ad
+features. Our findings show that theories were applied in only 11.5% of job ad-related studies.
+In those studies in which theories were explicitly applied, researchers used eight theoretical
+perspectives to study job ads and their impacts and outcomes: person-environment (P-E) fit
+(36%), signaling theory (21%), congruity theory (14%), the AIDA (attract, interest, desire, and
+action) theoretical framework (11%), media richness theory (11%), social identity theory
+(3.5%), genre theory (3%), and convention theory (0.5%).
+Considering that typologies can help to map the landscape of ideas that influence a
+particular field, they are crucial to any understanding of a diverse theoretical area
+(Allmendinger, 2002) such as job advertising. Based on the findings, the typology of
+theoretical perspectives for the study of job ads is presented in Table 1. We believe that this
+typology can stimulate more empirical research (Doty and Glick, 1994), allowing us to move
+beyond traditional linear or interaction theories to provide a mechanism for incorporating a
+holistic principle of inquiry into job ad research or acting as a starting point for developing
+other theories (Hung, 1998; Niknazar and Bourgault, 2017) as it revives the missed
+opportunities that contribute to the underdevelopment of theories in related fields.
+As shown in Table 1, applying different theoretical perspectives depends on different
+viewpoints (from whose viewpoint are we going to investigate the job ad field of study) and
+different focuses (What/who are we going to study?). For instance, applying the AIDA
+framework is logical when we aim to investigate the organizational viewpoint on how they
+pursue job ad recipients’ attraction/interest/desire/action. In this case, the primary focus can
+be organizational goals (how the AIDA framework serves different organizational purposes),
+messages (how to shape a job ad that is able to attract, create interest, increase desire and lead
+to action), or target populations (how potential applicants go through the different steps
+of AIDA).
+According to person-environment fit, the compatibility of people and their work
+environments explains the reasons for job seekers’ attraction to different organizations, jobs
+or industries (Verwaeren et al., 2017). Signaling theory has many applications in the
+occupational realm under study (Bokek-Cohen, 2018). The theory explains how signals or
+cues in job ads are interpreted by job seekers (Muruganantham et al., 2020; Story et al., 2016)
+and makes job seekers attracted to a job (Wille and Derous, 2017). In signaling theory, indirect
+cues and signals play an important role in job seekers’ attraction and further decisions
+(Highhouse and Hoffman, 2001, in: Wille and Derous, 2017), especially in the absence of direct
+information (Celani and Singh, 2011, in: Verwaeren et al., 2017). Congruity theory highlights
+the importance of the fit between the information presented in a message and the information
+that already exists. Therefore, as recipients’ knowledge about the information presented in a
+message differs, their interpretation about that message also varies. Following the AIDA
+framework, the first task of job ads is to attract attention, the second task is to increase the
+interest in a job, the third task is to generate desire, and the final task is to encourage action
+(Blackman, 2006). If an ad does not succeed in attracting attention (the first step), it does not
+matter what the advertisement contains as it will not be noticed (Redman and Mathews,
+1992). According to media richness theory, by using richer media for job advertising,
+recruiters are able to convey information more effectively. Media richness has been affected
+IJOTB
+Typology of theoretical
+perspectives
+Primary focus
+Organizational goal Message Target population
+Primary
+Viewpoint
+Organization Media richness theory/Genre theory/
+Congruity theory/AIDA framework
+Media richness theory/Genre theory/Congruity
+theory/Social identity theory/AIDA framework
+AIDA framework
+Audience Person-environment fit/Social identity
+theory
+Signaling theory/Person-environment fit/Social
+identity theory/Convention theory
+Signaling theory/Personenvironment fit/Convention theory
+Both Multitheoretical approach Multitheoretical approach Multitheoretical approach
+Table 1.
+Typology of the
+theoretical
+perspectives for the
+study of job ads
+Recruitment
+with effective
+job
+advertisement
+and defined by four factors (Baum and Kabst, 2014): (1) the ability of the media to send
+multiple warning signals, (2) enabling the message sender to receive prompt feedback from
+the recipients, (3) benefiting from both written and spoken language, and (4) the possibility to
+communicate with personalized information. Social identity theory encompasses how
+individuals classify themselves into different social categories and how they seek to identify
+themselves with those groups and categories. With regard to job advertising, researchers
+have shown that job seekers tend to interpret job ads to identify how the organization and its
+work environment are similar to them (Baum et al., 2016a, b). Genre theory concerns the
+content and style of different types of text and determines their features for the goals they are
+expected to serve. Finally, by expanding the view on the way ad recipients interpret signals
+about prospective employers, convention theory helps us study the systematic information
+processing in mixed-signal situations (Pernkopf et al., 2020).
+3.3 Important features of job ads
+Based on our review, we found seven important features of job ads that are believed to have
+important impacts on (potential) applicants. Considering all seven dimensions expounded on
+in the following subsections, we formulated a know-how framework for job advertising
+(Table 2).
+Synthesizing the literature, we propose that advertising a job/position should begin by
+considering the ad’s purpose (defining the “why question”). Subsequently, considering the
+target sector (the “where question”) will lead us to find the priority in media usage (the “what
+question”), and then previous evidence helps us determine which strategy should be used (the
+“how question”) to achieve better outcomes. After determining the job ad’s purposes (“why
+question”), we go through the where, what, and how questions as the framework’s main cell
+content that are explicated below.
+Summarizing the “where question,” there seems to be a gap between recruitment theory
+and practice, with a little inconsistency among the results of previous studies. Although
+nonprofit sector organizations are generally known as the ideal choice for applicants with
+intrinsic-oriented values and altruistic attitudes, in practice, the marketing approaches
+adopted by nonprofit organizations focus mainly on extrinsic values or do not give sufficient
+attention to values. From this, one can draw some lessons for both researchers and
+practitioners. For researchers, it seems necessary to emphasize contextual issues more
+Ad purpose (why)
+Job advertisement specification
+Where (context) What How
+Branding Priorities/Filling Entry-level
+Positions/Looking for More
+Effectiveness
+Both nonprofit and
+profit sectors**
+Printed ads
+(priority) and
+Online ads
+Style focused
+Less detailed
+Nondiscriminatory*
+Majority focused
+Pool quantity
+focused
+Hiring Priorities/Filling High-level
+Positions/Looking for More Efficiency
+Both profit and
+nonprofit sectors
+Online ads (priority)
+and Printed ads
+Content focused
+Detailed
+Nondiscriminatory
+Minority focused
+Pool quality focused
+Note(s): * A discriminatory ad refers to setting some criteria to exclude a specific part of the candidates (which
+based on the findings, all types of discriminations would have destructive effects on job ad outcomes). **Needs
+a deeper consideration of the contextual contingencies/values when shaping ad content in the nonprofit sector
+Table 2.
+Job advertising knowhow framework
+IJOTB
+preferably using congruity theory to link job ads and sectors. For recruiters, it seems vital to
+consider their organizational context and values and the nature of their potential applicants
+when forming their job ads.
+Regarding answering the “what question” and optimizing ad outcomes, research suggests
+that employers need to differentiate between two types of media when designing a job ad and
+consider their specific usages and goals they serve (Baum and Kabst, 2014). That is, it seems
+that recruiters need to adopt a hybrid and synergistic approach toward job advertising by
+utilizing both printed and online ads to gain better results. More concretely, recruiters can
+shape the content/style of their online job ads more focused on the micro level of job seekers’
+attraction and design their printed job ads to serve a broader purpose of creating a positive
+organizational image.
+The “how question” features and contingencies and the main findings for job ad features
+are thematically discussed in the following subsections.
+3.3.1 Online ads versus printed ads. Job ads exist in both print (e.g., newspapers,
+magazines, and journals) and online media (e.g., recruiter websites, web-based social
+networks, and career webpages) (Ahsan et al., 2013). Currently, reports show that 70% of all
+jobs are advertised through online media (Carnevale et al., 2014, in: Kim and Angnakoon,
+2016), which can imply the current importance of online ads.
+Studies show that printed ads are usually shorter, less detailed, and more costly (Sodhi
+and Son, 2010, in: Ahsan et al., 2013) whereas online ads are more detailed (Baum and Kabst,
+2014), less costly, and easier to access and update (Kaba, 2017); furthermore, it seems that
+online ads can have a stronger impact on applicant attraction as they have larger capacities
+according to the media richness theory perspective (Baum and Kabst, 2014).
+The literature shows that the proportion of different media usages (online versus printed)
+cannot represent their value and superiority since job ads do not merely serve one purpose of
+applicant attraction. Printed and online ads at a broader level also have strong impacts on
+organizational publicity and images, where evidence shows that printed ads can have a
+greater impact on improving publicity and organizational image (Sisodia and Chowdhary,
+2012). When discussing the importance of job ad media, however, there is a large
+inconsistency in how scholars view printed and online ads. First, some scholars stated that
+recent developments in technology cause online media to play a major role in job advertising
+(Dineen and Noe, 2009; Oikarinen and S€oderlund, 2016), that recruiters rarely use newspapers
+to advertise job openings anymore (Kim and Angnakoon, 2016), and that printed ads are
+being replaced by web-based ads (Walker et al., 2008, in: Baum et al., 2016a, b). Second, some
+believe that written job ads serve their purpose well (Frijters et al., 2005, in: De Cooman and
+Pepermans, 2012) and that other media should just be used as a supplementary tool to printed
+media (newspapers) because printed ads help companies shape their image (Sisodia and
+Chowdhary, 2012), which cannot be fulfilled in a virtual world (Ramachander, 2008, in:
+Sisodia and Chowdhary, 2012).
+3.3.2 Content versus style. The content and style of job ads have large influences on job
+seekers’ organizational attitudes, applicant attraction, and their decision to apply (Coberet al.,
+2003; Walker et al., 2008). The literature shows that job ad content can be composed of a vast
+variety of information such as the following: job title, company and job features, candidate
+qualifications, working hours/dates, salary and rewards, etc. There is a strong link between
+job ad content and potential applicants’ decisions to apply (Jones Willness and Madey, 2014,
+in: Uberschaer € et al., 2016; Weiet al., 2016), mainly due to its potential to influence job seekers’
+perceptions about jobs, organizations and working conditions. It has been argued that
+information more relevant to a vacancy or organization will be perceived as more favorable
+(Yuce and Highhouse, 1998, in: Acarlar and Bilgiç, 2013). Researchers also found that
+presenting information on salary and benefits leads to receiving more applicants compared to
+when job ads lack that information (Kaplan et al., 1991, in: Acarlar and Bilgiç, 2013).
+Recruitment
+with effective
+job
+advertisement
+Job ad style, as both an ad’s aesthetic properties and way of expressing the information,
+encompasses many aspects such as the following: size, layout, font, color, design, and the
+approach toward using language. All of these aspects can greatly influence job seekers’
+perceptions. Findings show that job ad style can play a vital role in supporting job ad content
+and increasing its persuasiveness and applicant attraction. For example, evidence shows that
+ads can use humor as a cheap and nontraditional tool to form a positive perception about
+employer brands (Oikarinen and Saraniemi, 2016), use aesthetic properties to increase
+organizational attractiveness (Coberet al., 2003), use proper pictures/photographs to enhance
+the effectiveness of imagery appeals (Ostinelli and B€ockenholt, 2017), or use real pictures of
+the staff to increase potential applicant attraction (Burt et al., 2010).
+Hence, it is important to examine both job ad content and style as two complementary
+features that should be used consciously. However, it seems that the influence of job ads’
+content and style is dependent on job seekers’ prior work and job search experience
+(Walker et al., 2008). One study showed that job ad content has a larger impact on
+experienced job seekers’ attitudes while less experienced job seekers would be more
+influenced by job ads’ style (Walker et al., 2008). Therefore, one can conclude that due to
+the importance of job seekers’ prior experience, recruiters may consider focusing more on
+the content of ads for higher level vacancies and specially consider job ads’ style for entrylevel positions.
+3.3.3 Specified (detailed) versus nonspecified (undetailed). Specified and nonspecified
+information in a job advertisement is among one of the important issues, constituting 5.5% of
+the sources in our database. Although research shows that highly specified and detailed job
+ads can decrease the quantity of the applicant pool (Belt and Paolillo, 1982; in: Weiet al., 2016),
+prior studies have shown that specified job ads have many positive outcomes (Verwaeren
+et al., 2017). There is some evidence that shows that specificity can positively influence
+perceptions about job appropriateness, ad truthfulness, and attitudes toward organizations
+and job advertisements (Feldman et al., 2006; in: Acarlar and Bilgiç, 2013). It is also associated
+with more organizational attractiveness and higher informativeness of the ads (Lee et al.,
+2011). Furthermore, it has been argued that specificity presents organizations’ sincerity and
+trustworthiness and helps potential applicants reduce their search costs and better
+understand their person-organizational fit (Wei et al., 2016). In addition, researchers believe
+that specified and detailed job ads can counteract negative publicity surrounding
+organizations (Lee et al., 2011; Lee et al., 2013).
+Hence, one can conclude that neglecting message specificity in job ads can increase the
+number of unqualified applicants and subsequently increase recruitment and selection costs.
+Therefore, using specified ads seems to generally be a good approach to job advertising.
+However, employers might utilize nonspecified job ads or specify fewer job requirements
+when they need their vacancies filled immediately since such ads can decrease the selfscreening impact on job seekers’ intention to apply and might help the vacancy to be filled
+earlier by increasing the number of applicants.
+3.3.4 Discriminatory versus nondiscriminatory language. The broad problem of global
+inequality can be investigated from different aspects. Discrimination in employment is one of
+the influential factors (Daspro, 2009); although its driving factors are still not properly
+recognized, studies have addressed its main roots in cultural and legal system contingencies
+(Gao, 2008). Discriminatory language in a job ad can be used both directly, by emphasizing a
+preference for different kinds of candidates, and indirectly, by setting some criteria to exclude
+those candidates (Sergeant and Lewis, 2006; Taylor and Emir, 2006; in: Woodhams et al.,
+2009). Discrimination in job ads can occur based on age, gender, physical appearance, marital
+status (Daspro, 2009), race and ethnicity (Williamson et al., 2008), or even religion (Leong et al.,
+2004). Despite equality and nondiscriminatory rules for job advertising in many countries,
+there is still evidence showing discrimination in organizations’ job ads. Among all types of
+IJOTB
+discrimination in job ads, gender (in 86% of related studies) and race-related discrimination
+(14%) have received the most attention by scholars.
+Regarding gender, executive or director positions largely consist of men and not women or
+gender-diverse groups (Nater and Sczesny, 2016). High position job ads often emphasize
+masculine traits, which might create an image of women as less legitimate top managers than
+men (Askehave and Zethsen, 2014). These ads may consequently deprive organizations of
+benefiting from female talent in higher positions (Askehave and Zethsen, 2014). Nevertheless,
+evidence shows that using gender-neutral language in ads is easy and not costly (Horvath
+and Sczesny, 2016). One of the simplest ways to motivate women to apply for higher-level jobs
+is to make them linguistically visible, such as by using word pairs (he/she) when using
+pronouns, because it reduces women’s perception of a lack of fit with high-level jobs or
+leadership positions (Horvath and Sczesny, 2016).
+Regarding race, it has been stated that racially diverse employees can bring sustainable
+competitive advantages for organizations (Cox and Blake, 1991; Thomas, 2004, in: Haggard
+and Haggard, 2017; Williamson et al., 2008). An important step in creating a diverse
+workforce is to attract a diverse set of job seekers using organization job ads (Barber, 1998, in:
+Williamson et al., 2008). One study found that messages of diversity can attract job seekers to
+organizations, and the prior discrimination experiences of these individuals can moderate
+this relation (Williamson et al., 2008). It has also been found that in less regulated
+environments, organizations might tend to use discriminatory job ads (Leong et al., 2004);
+therefore, not only recruiters but also policy makers can play important roles in deterring
+discrimination in job ads. Overall, lessons of previous studies suggest that recruiters should
+avoid discriminatory job ads since they are not based on free market operations, might cause
+some inefficiency in exploiting human resources, and might prevent individuals from
+competing fairly and freely (Woodhams et al., 2009).
+3.3.5 Minority-focused versus majority-focused. The benefit of a diversified workforce is
+vital for organizations, especially for multinational corporations (MNCs) or those engaging in
+international trade. Findings show that utilizing messages of diversity, as a simple and cheap
+method, plays an important role in attracting minorities while keeping majorities interested in
+applying for jobs. Hiring employees with different personal and demographic features can help
+organizations better understand the marketplace (Smedley et al., 2004; in: Ng et al., 2016) and
+find more innovative ways to solve daily work problems (Cox, 2001; in: Ng et al., 2016). To form
+such a workforce, organizations need to be able to attract both minority and majority applicants
+(Allen et al., 2007; Barber, 1998, in: Ng et al., 2016). One of the most effective and economical
+ways to both attract minorities and keep majorities interested is to use messages of diversity in
+organizations’ job ads. How can this be done? There are many variables that can determine the
+effectiveness of messages of diversity that should be considered by recruiters, such as the
+regulatory focus of job applicants (ego-focused vs. other-focused) (Han and Ling, 2016), level of
+the jobs (Ng et al., 2016), a firm’s country of origin (Baum et al., 2016a, b), racial tolerance (Brown
+et al., 2006; in: Baum et al., 2016a, b), and featuring minority representatives (Avery et al., 2004).
+3.3.6 Applicant pool quantity versus applicant pool quality. There is a controversial debate
+around the advantages of applicant pool quality over quantity in the job ad literature.
+Although increasing the quantity of applicant pools allows organizations to increase the
+number of qualified applicants (Liu et al., 2016), focusing on applicant pool quality also has
+many important advantages, such as increasing the efficiency of applicant processing,
+decreasing legal risks by minimizing rejected applicants, decreasing selection costs (Cappelli,
+2001; Dineen and Noe, 2009, in: Dineen and Williamson, 2012), reducing potential negative
+reactions of applicants (Chapman and Webster, 2003; in: Dineen and Noe, 2009), and saving
+applicants’ and employers’ time and effort (Dineen and Noe, 2009). Overall, although most
+studies have focused on applicant attraction to increase the applicant pool quantity, there are
+many reasons that justify the importance of applicant pool quality. Therefore, recruiters need
+Recruitment
+with effective
+job
+advertisement
+to follow an approach that enables them to both have a sufficient number and quality of
+applicants.
+Our findings show that research often focused on applicant pool quantity rather than
+emphasizing applicant pool quality. Research suggests that to increase the quantity of
+applicant pools, organizations can use nonspecified job ads; in addition, by applying specified
+job ads, they can aim to increase the quality of their applicant pools (Mason and Belt, 1986).
+Paying attention to the aesthetic properties of job ads (Jones et al., 2006; Kaplan et al., 1991)
+and presenting sufficient information about salary and company benefits can also increase
+applicant pool quantity (Kaplan et al., 1991). It has also been shown that favorable
+organizational reputation (Dineen and Williamson, 2012) and advertising organizational
+image (Collins and Han, 2004; in: Lee et al., 2013) can increase both applicant pool quantity and
+quality.
+3.3.7 Nonprofit sector versus for-profit sector. We found that the data were collected in the
+nonprofit sector for 11% of the articles, in the for-profit sector for 15% of the articles, and in
+both sectors for 32% of the articles; furthermore, 42% of the articles did not provide
+information about the sector in which the data were collected. Only approximately 2% of
+those studies explicitly considered sector-specific and contextual features in their research
+designs, which is important because sector-specific characteristics have diverse and
+influential implications for multiple stakeholders (e.g., citizens, interest groups, social
+partners and the media) (Knies et al., 2015).
+On the employer side, the studies that did explicitly consider sector-specific features
+show first that nonprofit sector organizations use less eye-catching and prestigious job
+ads, which can be attributed to financial restrictions; they also emphasize altruistic and
+extrinsic values (e.g., insurance and fringe benefits) in their job ads while for-profit sector
+organizations emphasize intrinsic and prestige values (De Cooman and Pepermans, 2012).
+Furthermore, the studies showed that many nonprofit organizations adapt market
+language in which they neglect to pay sufficient attention to “values” in general (Green
+and Dalton, 2007; Redman and Mathews, 1997). As stated by Green and Dalton (2007), it is
+important to note that although the managerialist approach (the use of market language)
+in nonprofit sector organizations might have some short-term benefits, in the long term,
+the whole sector and related community might be hurt because of the many differences
+with the profit sector.
+On the employee side, compared to their peers in the for-profit sector, evidence shows
+that employees in the nonprofit sector pay more attention to intrinsic values (De Cooman
+and Pepermans, 2012), the content of jobs (Frank and Lewis, 2004; in: De Cooman and
+Pepermans, 2012), learning and creative opportunities and challenging tasks (Lyons et al.,
+2006; in: De Cooman and Pepermans, 2012); however, profit sector applicants seek career
+advancement (Frank and Lewis, 2004; in: De Cooman and Pepermans, 2012),
+opportunities for promotion (Devaro and Brookshire, 2007; Saunders, 2004; in:
+De Cooman and Pepermans, 2012), and gaining influence (De Cooman et al., n.d. in:
+De Cooman and Pepermans, 2012). Moreover, in general, research shows that employees
+find it more inherently satisfying to work in nonprofit sector organizations, and the lower
+remuneration in that sector might be compensated by the intrinsic benefits employees
+might attain by working there (Mirvis, 1992, in: De Cooman and Pepermans, 2012).
+Conversely, it is assumed that the profit sector receives more applicants who prioritize
+their wages since they believe they can earn more in profit sector organizations vis-a-vis
+equal jobs in the nonprofit sector (Lewis and Frank, 2002; in: De Cooman and Pepermans,
+2012). The previous general assumption is empirically supported in the profit sector for
+employees who also value the prestigious aspects of work (Lyons et al., 2006; in:
+De Cooman and Pepermans, 2012).
+IJOTB
+4. Discussion
+Job ads have recently come under the spotlight more than ever, and there is a fair amount of
+literature in this field that helps us to obtain some knowledge about this medium and its
+features. Taking stock of the existing literature, in this article, we synthesize the literature
+and present a theoretical tool that is useful for understanding and studying job ad features,
+and we also distill seven main features of job ads with considerable impacts on (potential)
+candidates. Although we currently still know too little to draw solid cause and effect
+conclusions regarding how to achieve efficiency in recruitment by applying effective job
+advertisements, our research provides a novel and promising theoretical typology that can
+assist the next research steps to move the field forward. Furthermore, a know-how
+framework for job advertising is also provided, the suggestions of which can give
+practitioners a credible framework for shaping job ads and lower the risk of expectable
+destructive outcomes of trial and error approaches in job advertising. However, as there are
+many qualitative research and cross-sectional studies in this field of study, it is difficult to
+draw causal inferences, and we need more experimental research designs to generalize causal
+inferences (Shadish et al., 2002).
+Before presenting our research agenda, we first acknowledge that our focus on
+management and organizational research journals may have led to the omission of some
+relevant articles. However, our systematic approach benefits from a rigorous procedure, as
+explained in the Methods section, which decreased the probability of missing important
+information that could radically have altered the results of our study. Next, although the
+reviewed studies were conducted in different countries and in different languages, only
+articles written in English were included in our review because of understanding, which can
+result in publication bias. We are not aware of any findings in non-English articles that
+challenge or alter our findings. Some additional knowledge might be neglected, and our
+study’s suggestions and proposed research agenda should be interpreted with that limitation
+in mind.
+5. Future research directions
+Based on our findings, we have found several research streams as an agenda for future
+studies. First, approximately 88.5% of the identified studies did not adopt any theoretical
+perspective. As the importance and necessity of theoretical tools in related studies discussed,
+we encourage efforts to apply the identified theoretical typology as a starting point for
+developing a unique grand theory for job advertising and adapt a multitheoretical approach
+toward the study of job ads.
+Second, studies in the area of the initial stages of recruitment and job advertising are often
+focused on job seekers’ attraction to maximize the size of applicant pool rather than creating a
+smaller high-quality pool of applicants (Dineen and Noe, 2009). Recruitment is an expensive
+organizational function and takes substantial time, money and effort to screen and select
+suited staff among many individuals. Therefore, studying the optimal point between the
+applicant pool quality and quantity in different organizational contexts with different goals
+and sizes and for different positions (concerning hierarchy and needed skills) is suggested.
+Third, similar to findings in other literature reviews in public administration (Voorn et al.,
+2017), our findings show that a large proportion of studies on job ads do not refer to
+organizational context and sector, which can neglect some important issues from the
+stakeholder theory perspective, as discussed before. Furthermore, although we sought to
+distinguish between job ads in the nonprofit and profit sectors, addressing the distinction
+between public/private and service/manufacturing and other types of context-related issues
+has been neglected in previous studies. Thus, the need for more context-related studies in the
+field of job ad studies is clear.
+Recruitment
+with effective
+job
+advertisement
+Fourth, although different types of discrimination in job ads and gender-related topics
+have received attention from researchers, none of our coded articles considered age issues
+(old vs. young) related to job advertising. That is interesting because some clues in a book
+show that females are the main target of age discrimination in the West (Gregory, 2003) as
+their attractiveness might decrease as they age (Marlowe et al., 1996). Moreover, despite the
+existing important debate on the recruitment of transgenders and nondiscriminatory
+regulations, scholars in the study of job ads have neglected this topic so far. Therefore, age
+discrimination in job ads and transgender issues can be two important streams for future
+studies on job ads.
+Fifth, our study extends Rafaeli and Oliver’s (1998) categorization of different levels of
+job ad analysis. In their study, they present a configurational analysis of job ads to build a
+framework that maps the complexity of ads, identifies different layers of their audiences
+and presents a configurational lens to enhance our understanding of job ads. They
+proposed five levels of analysis for job ads: individual, occupational, organizational,
+industry, and society. Our study extends their analytical hierarchy by discovering that
+there is research on job ads considering differences in national contexts and cultures,
+comparing the differences of job ad features in international settings and conducting
+some cross-cultural comparisons. However, as stated by researchers, there is a lack of
+research on differences in recruiting practices across cultures in different countries,
+particularly in regard to job ads (Ma and Allen, 2009; in: Han and Ling, 2016). Hence, there
+is a need for more research on those broader macrolevels to develop some insights on
+international ads in different national contexts. Furthermore, there is a lack of sufficient
+job ad-related studies in developing countries. Due to the great cultural differences that
+can influence individuals’ fit perception and social identification, the need for future
+studies on job advertisements in developing countries with a focus on their distinct
+contexts and cultures seems to be necessary.
+Finally, there is still a limited understanding of the concrete effects of singular and
+multiple job ad features, as presented in Table 2, on advertising outcomes with respect to
+different stakeholders. As we now have a typology of the theoretical perspectives for the
+study of job ads and a framework of job ad know-how, we believe that now is the best time to
+conduct metastudies that aim to obtain more concrete information on the effects of multiple
+job ad features and the roles of different mediators and moderators in addressing different job
+ad outcomes.
+References
+Acarlar, G. and Bilgiç, R. (2013), “Factors influencing applicant willingness to apply for the advertised
+job opening: the mediational role of credibility, satisfaction and attraction”, The International
+Journal of Human Resource Management, Vol. 24 No. 1, pp. 50-77, doi: 10.1080/09585192.2012.
+667427.
+Acikgoz, Y. (2019), “Employee recruitment and job search: towards a multi-level integration”, Human
+Resource Management Review, Vol. 29 No. 1, pp. 1-13, doi: 10.1016/j.hrmr.2018.02.009.
+Ahmad, S. and Schroeder, R.G. (2002), “The importance of recruitment and selection process for
+sustainability of total quality management”, International Journal of Quality and Reliability
+Management, Vol. 19 No. 5, pp. 540-550, doi: 10.1108/02656710210427511.
+Ahsan, K., Ho, M. and Khan, S. (2013), “Recruiting project managers: a comparative analysis of
+competencies and recruitment signals from job advertisements”, Project Management Journal,
+Vol. 44 No. 5, pp. 36-54, doi: 10.1002/pmj.21366.
+Allmendinger, P.J.P.t. (2002), “Towards a post-positivist typology of planning theory”, Vol. 1 No. 1,
+pp. 77-99.
+IJOTB
+Anne Kennan, M., Cole, F., Willard, P., Wilson, C. and Marion, L. (2006), “Changing workplace
+demands: what job ads tell us”, Paper Presented at the Aslib Proceedings.
+Arksey, H. and O’Malley, L. (2005), “Scoping studies: towards a methodological framework”,
+International Journal of Social Research Methodology, Vol. 8 No. 1, pp. 19-32, doi: 10.1080/
+1364557032000119616.
+Ashkanasy, N.M. (2016), “Why we need theory in the organization sciences”, Journal of Organizational
+Behavior, Vol. 37 No. 8, pp. 1126-1131, doi: 10.1002/job.2113.
+Askehave, I. and Zethsen, K.K. (2014), “Gendered constructions of leadership in Danish job
+advertisements”, Gender, Work and Organization, Vol. 21 No. 6, pp. 531-545, doi: 10.1111/
+gwao.12053.
+Avery, D.R., Hernandez, M. and Hebl, M.R. (2004), “Who’s watching the race? Racial salience in
+recruitment advertising 1”, Journal of Applied Social Psychology, Vol. 34 No. 1, pp. 146-161,
+doi: 10.1111/j.1559-1816.2004.tb02541.x.
+Barber, A.E. (1998), Recruiting Employees: Individual and Organizational Perspectives, Sage
+Publications, Thousand Oaks, CA.
+Baum, M. and Kabst, R. (2014), “The effectiveness of recruitment advertisements and recruitment
+websites: indirect and interactive effects on applicant attraction”, Human Resource
+Management, Vol. 53 No. 3, pp. 353-378, doi: 10.1002/hrm.21571.
+Baum, M., Sch€afer, M. and Kabst, R. (2016a), “Modeling the impact of advertisement-image congruity
+on applicant attraction”, Human Resource Management, Vol. 55 No. 1, pp. 7-24, doi: 10.1002/
+hrm.21652.
+Baum, M., Sterzing, A. and Alaca, N. (2016b), “Reactions towards diversity recruitment and the
+moderating influence of the recruiting firms’ country-of-origin”, Journal of Business Research,
+Vol. 69 No. 10, pp. 4140-4149, doi: 10.1016/j.jbusres.2016.03.037.
+Blackman, A. (2006), “Graduating students’ responses to recruitment advertisements”, The Journal of
+Business Communication, Vol. 43 No. 4, pp. 367-388, 1973, doi: 10.1177/0021943606291705.
+Bokek-Cohen, Y.a. (2018), “Conceptualizing employees’ digital skills as signals delivered to
+employers”, International Journal of Organization Theory and Behavior, Vol. 21 No. 1,
+pp. 17-27, doi: 10.1108/IJOTB-03-2018-003.
+Breaugh, J.A. and Starke, M. (2000), “Research on employee recruitment: so many studies, so many
+remaining questions”, Journal of Management, Vol. 26 No. 3, pp. 405-434, doi: 10.1177/
+014920630002600303.
+Brencic, V. and Norris, J.B. (2009), “Employers’ online search: an empirical analysis”, Industrial
+Relations: A Journal of Economy and Society, Vol. 48 No. 4, pp. 684-709, doi: 10.1111/j.1468-232X.
+2009.00581.x.
+Burdett, K. and Cunningham, E.J. (1998), “Toward a theory of vacancies”, Journal of Labor Economics,
+Vol. 16 No. 3, pp. 445-478, doi: 10.1086/209895.
+Burt, C.D., Halloumis, S.A., McIntyre, S. and Blackmore, H.S. (2010), “Using colleague and team
+photographs in recruitment advertisements: effects on applicant attraction”, Asia Pacific
+Journal of Human Resources, Vol. 48 No. 2, pp. 233-250, doi: 10.1177/1038411109355358.
+Cober, R.T., Brown, D.J., Levy, P.E., Cober, A.B. and Keeping, L.M. (2003), “Organizational web sites:
+web site content and style as determinants of organizational attraction”, International Journal of
+Selection and Assessment, Vol. 11 Nos 2-3, pp. 158-169, doi: 10.1111/1468-2389.00239.
+Collins, C.J. and Stevens, C.K. (2002), “The relationship between early recruitment-related activities
+and the application decisions of new labor-market entrants: a brand equity approach to
+recruitment”, Journal of Applied Psychology, Vol. 87 No. 6, pp. 1121-1133, available at: https://
+psycnet.apa.org/doi/10.1037/0021-9010.87.6.1121.
+Daspro, E. (2009), “An analysis of US multinationals’ recruitment practices in Mexico”, Journal of
+Business Ethics, Vol. 87 No. 1, pp. 221-232, doi: 10.1007/s10551-008-9805-1.
+Recruitment
+with effective
+job
+advertisement
+De Cooman, R. and Pepermans, R. (2012), “Portraying fitting values in job advertisements”, Personnel
+Review, Vol. 41 No. 2, pp. 216-232, doi: 10.1108/00483481211200042.
+Dineen, B.R. and Noe, R.A. (2009), “Effects of customization on application decisions and applicant
+pool characteristics in a web-based recruitment context”, Journal of Applied Psychology, Vol. 94
+No. 1, pp. 224-234, available at: https://psycnet.apa.org/doi/10.1037/a0012832.
+Dineen, B.R. and Williamson, I.O. (2012), “Screening-oriented recruitment messages: antecedents and
+relationships with applicant pool quality”, Human Resource Management, Vol. 51 No. 3,
+pp. 343-360, doi: 10.1002/hrm.21476.
+Doty, D.H. and Glick, W.H.J.A.o. m. r. (1994). Typologies as a unique form of theory building: toward
+improved understanding and modeling, Vol. 19 No. 2, pp. 230-251.
+Fu, X. (2012), “The use of interactional metadiscourse in job postings”, Discourse Studies, Vol. 14 No. 4,
+pp. 399-417, doi: 10.1177/1461445612450373.
+Gao, Z.J.J.o. A.-P.B. (2008), “Gender discrimination in Chinese recruitment advertisements”, A content
+analysis, Vol. 9 No. 4, pp. 395-418.
+Green, J. and Dalton, B. (2007), “Values and virtues or qualifications and experience?: an analysis of
+non-profit recruitment advertising in Australia”, Employment relations record, Vol. 7 No. 2, p. 1.
+Gregory, R.F. (2003), Women and Workplace Discrimination: Overcoming Barriers to Gender Equality,
+Rutgers University Press, New Brunswick, NJ.
+Haggard, D.L. and Haggard, K.S. (2017), “Value creation through executive diversity”, International
+Journal of Organization Theory and Behavior, Vol. 20 No. 2, pp. 141-160, doi: 10.1108/IJOTB-20-
+02-2017-B001.
+Han, J. and Ling, J. (2016), “Emotional appeal in recruitment advertising and applicant attraction:
+unpacking national cultural differences”, Journal of Organizational Behavior, Vol. 37 No. 8,
+pp. 1202-1223, doi: 10.1002/job.2099.
+Highouse, S. and Hoffman, J.R. (2001), “Organizational attraction and job choice”, International Review
+of Industrial and Organizational Psychology, Vol. 16, pp. 37-64.
+Horvath, L.K. and Sczesny, S. (2016), “Reducing women’s lack of fit with leadership positions? Effects
+of the wording of job advertisements”, European Journal of Work and Organizational
+Psychology, Vol. 25 No. 2, pp. 316-328, doi: 10.1080/1359432X.2015.1067611.
+Hung, H.J.C.G.A.I.R. (1998), “A typology of the theories of the roles of governing boards”, Vol. 6 No. 2,
+pp. 101-111.
+Jones, D.A., Shultz, J.W. and Chapman, D.S. (2006), “Recruiting through job advertisements: the effects
+of cognitive elaboration on decision making”, International Journal of Selection and Assessment,
+Vol. 14 No. 2, pp. 167-179, doi: 10.1111/j.1468-2389.2006.00342.x.
+Kaba, A. (2017), “Online library job advertisement in United Arab Emirates: a content analysis of
+online sources”, Library Management, Vol. 38 Nos 2/3, pp. 131-141, doi: 10.1108/LM-07-
+2016-0058.
+Kaplan, A.B., Aamodt, M.G. and Wilk, D. (1991), “The relationship between advertisement variables
+and applicant responses to newspaper recruitment advertisements”, Journal of Business and
+Psychology, Vol. 5 No. 3, pp. 383-395, doi: 10.1007/BF01017709.
+Kim, J. and Angnakoon, P. (2016), “Research using job advertisements: a methodological assessment”,
+Library and Information Science Research, Vol. 38 No. 4, pp. 327-335, doi: 10.1016/j.lisr.2016.
+11.006.
+Knies, E., Boselie, P., Gould-Williams, J. and Vandenabeele, W. (2015), Special issue of International
+Journal of Human Resource Management: Strategic human resource management and public
+sector performance, Vol. 26 No. 3, pp. 421-424, doi: 10.1080/09585192.2014.980127.
+Kuokkanen, A., Varje, P. and V€a€an€anen, A. (2013), “Transformation of the Finnish employee ideal in
+job advertisements from 1944 to 2009”, Acta Sociologica, Vol. 56 No. 3, pp. 213-226, doi: 10.1177/
+0001699313477871.
+IJOTB
+Lee, C.-H., Hwang, F.-M., Wang, M.-L. and Chen, P.-H. (2011), “Hype matters applicant attraction: study
+on type of publicity and recruitment advertising”, African Journal of Business Management,
+Vol. 5 No. 7, pp. 2734-2741, doi: 10.5897/AJBM10.1095.
+Lee, C.H., Hwang, F.M. and Yeh, Y.C. (2013), “The impact of publicity and subsequent intervention in
+recruitment advertising on job searching freshmen’s attraction to an organization and job
+pursuit intention”, Journal of Applied Social Psychology, Vol. 43 No. 1, pp. 1-13, doi: 10.1111/j.
+1559-1816.2012.00975.x.
+Leong, S.M., Tan, H.H. and Loh, M.S.-Y. (2004), “When the cat’s away: a content analysis of MNC
+overseas recruitment print ads”, Journal of Business Ethics, Vol. 49 No. 2, pp. 115-127, doi: 10.
+1023/B:BUSI.0000015845.18419.1d.
+Liu, Y.-L., Keeling, K.A. and Papamichail, K.N. (2016), “An exploratory study of jobseekers’ decisionmaking styles, recruitment information sources and organisational attractiveness”, Personnel
+Review, Vol. 45 No. 6, pp. 1403-1427, doi: 10.1108/PR-11-2014-0250.
+Marlowe, C.M., Schneider, S.L. and Nelson, C.E. (1996), “Gender and attractiveness biases in hiring
+decisions: are more experienced managers less biased?”, Journal of Applied Psychology, Vol. 81
+No. 1, pp. 11-21.
+Mason, N.A. and Belt, J.A. (1986), “Effectiveness of specificity in recruitment advertising”, Journal of
+Management, Vol. 12 No. 3, pp. 425-432, doi: 10.1177/014920638601200311.
+Mathews, B.P. and Redman, T. (1998), “Managerial recruitment advertisements–just how market
+orientated are they?”, International Journal of Selection and Assessment, Vol. 6 No. 4,
+pp. 240-248, doi: 10.1111/1468-2389.00095.
+Mathews, B.P. and Redman, T. (2001), “Recruiting the wrong salespeople: are the job ads to blame?”,
+Industrial Marketing Management, Vol. 30 No. 7, pp. 541-550, doi: 10.1016/S0019-8501(99)
+00121-2.
+Muruganantham, G., Antony, S.P. and George, E.P. (2020), “Understanding job and organizational
+attributes as signals from recruitment advertisement”, Journal of Indian Business Research. doi:
+10.1108/JIBR-04-2018-0112.
+Nater, C. and Sczesny, S. (2016), “Affirmative action policies in job advertisements for leadership
+positions: how they affect women’s and men’s inclination to apply”, European Journal of Social
+Psychology, Vol. 46 No. 7, pp. 891-902, doi: 10.1002/ejsp.2200.
+Ng, Y.L., Kulik, C.T. and Bordia, P. (2016), “The moderating role of intergroup contact in race
+composition, perceived similarity, and applicant attraction relationships”, Journal of Business
+and Psychology, Vol. 31 No. 3, pp. 415-431, doi: 10.1007/s10869-015-9419-4.
+Niknazar, P. and Bourgault, M.J.I.J.O.P.M. (2017), “Theories for classification vs. classification as
+theory: implications of classification and typology for the development of project management
+theories”, Vol. 35 No. 2, pp. 191-203.
+Oikarinen, E.-L. and Saraniemi, S. (2016), “Categorizing humorous employer brand message in a small
+company’s online job ads”, Corporate Reputation Review, Vol. 19 No. 3, pp. 198-218, doi: 10.1057/
+s41299-016-0003-2.
+Oikarinen, E.-L. and S€oderlund, M. (2016), “The effects of humour in online recruitment advertising”,
+Australasian Marketing Journal (AMJ), Vol. 24 No. 3, pp. 180-186, doi: 10.1016/j.ausmj.2016.
+02.005.
+Ostinelli, M. and B€ockenholt, U. (2017), “Overcoming lower imagery ability through process priming”,
+International Journal of Research in Marketing, Vol. 34 No. 4, pp. 799-812, doi: 10.1016/j.ijresmar.
+2017.08.004.
+Pernkopf, K., Latzke, M. and Mayrhofer, W.J.H.R.M.J. (2020), “Effects of mixed signals on employer
+attractiveness: a mixed-method study based on signalling and convention theory”, Human
+Resource Management Journal, pp. 1-22. doi: 10.1111/1748-8583.12313.
+Peters, M., Godfrey, C., McInerney, P., Soares, C., Khalil, H. and Parker, D. (2015), “The Joanna Briggs
+Institute reviewers’ manual 2015”, Methodology for JBI Scoping Reviews.
+Recruitment
+with effective
+job
+advertisement
+Rafaeli, A. and Oliver, A.L. (1998), “Employment ads: a configurational research agenda”, Journal of
+Management Inquiry, Vol. 7 No. 4, pp. 342-358, doi: 10.1177/105649269874009.
+Redman, T. and Mathews, B.P. (1992), “Advertising for effective managerial recruitment”, Journal of
+General Management, Vol. 18 No. 2, pp. 29-44, doi: 10.1177/030630709201800203.
+Redman, T. and Mathews, B.P. (1997), “What do recruiters want in a public sector manager?”, Public
+Personnel Management, Vol. 26 No. 2, pp. 245-256, doi: 10.1177/009102609702600206.
+Reeve, C.L. and Schultz, L. (2004), “Job-seeker reactions to selection process information in job ads”,
+International Journal of Selection and Assessment, Vol. 12 No. 4, pp. 343-355, doi: 10.1111/j.0965-
+075X.2004.00289.x.
+Reeve, C.L., Highhouse, S. and Brooks, M.E. (2006), “A closer look at reactions to realistic
+recruitment messages”, International Journal of Selection and Assessment, Vol. 14 No. 1,
+pp. 1-15, doi: 10.1111/j.1468-2389.2006.00330.x.
+Schmidt, J.A., Chapman, D.S. and Jones, D.A. (2015), “Does emphasizing different types of person–
+environment fit in online job ads influence application behavior and applicant quality?
+Evidence from a field experiment”, Journal of Business and Psychology, Vol. 30 No. 2,
+pp. 267-282, doi: 10.1007/s10869-014-9353-x.
+Shadish, W.R., Cook, T.D. and Campbell, D.T. (2002), in Shedish, W.R., Cook, T.D. and Campbell, D.T.
+(Eds), Experimental and Quasi-Experimental Designs for Generalized Causal Inference,
+Houghton Mifflin, Boston.
+Sisodia, S. and Chowdhary, N. (2012), “Use of illustrations in recruitment advertising by service
+companies”, Journal of Services Research, Vol. 12 No. 2, pp. 81-109.
+Snape, E., Redman, T. and Bamber, G. (1994), Managing Managers: Strategies and Techniques for
+Human Resource Management, Blackwell Business, MA.
+Story, J., Castanheira, F. and Hartig, S. (2016), “Corporate social responsibility and organizational
+attractiveness: implications for talent management”, Social Responsibility Journal, Vol. 12 No. 3,
+pp. 484-505, doi: 10.1108/SRJ-07-2015-0095.
+Uberschaer, A., Baum, M., Bietz, B.-T. and Kabst, R. (2016), € “The contingencies of person-organization
+fit perceptions”, Journal of Managerial Psychology, Vol. 31 No. 6, pp. 1021-1039, doi: 10.1108/
+JMP-09-2014-0266.
+Verwaeren, B., Van Hoye, G. and Baeten, X. (2017), “Getting bang for your buck: the specificity of
+compensation and benefits information in job advertisements”, The International Journal of
+Human Resource Management, Vol. 28 No. 19, pp. 2811-2830, doi: 10.1080/09585192.2016.
+1138989.
+Voorn, B., van Genugten, M.L. and van Thiel, S. (2017), “The efficiency and effectiveness of
+municipally owned corporations: a systematic review”, Local Government Studies, Vol. 43 No. 5,
+pp. 820-841.
+Walker, H.J., Feild, H.S., Giles, W.F. and Bernerth, J.B. (2008), “The interactive effects of job
+advertisement characteristics and applicant experience on reactions to recruitment messages”,
+Journal of Occupational and Organizational Psychology, Vol. 81 No. 4, pp. 619-638, doi: 10.1348/
+096317907X252487.
+Weed, M. (2008), “A potential method for the interpretive synthesis of qualitative research: issues in
+the development of ‘meta-interpretation’”, International Journal of Social Research Methodology,
+Vol. 11 No. 1, pp. 13-28, doi: 10.1080/13645570701401222.
+Wei, Y.-C., Chang, C.-C., Lin, L.-Y. and Liang, S.-C. (2016), “A fit perspective approach in linking
+corporate image and intention-to-apply”, Journal of Business Research, Vol. 69 No. 6,
+pp. 2220-2225, doi: 10.1016/j.jbusres.2015.12.033.
+Wille, L. and Derous, E. (2017), “Getting the words right: when wording of job ads affects ethnic
+minorities’ application decisions”, Management Communication Quarterly, Vol. 31 No. 4,
+pp. 533-558, doi: 10.1177/0893318917699885.
+IJOTB
+Williamson, I.O., Slay, H.S., Shapiro, D.L. and Shivers-Blackwell, S.L. (2008), “The effect of
+explanations on prospective applicants reactions to firm diversity practices”, Human Resource
+Management, Vol. 47 No. 2, pp. 311-330, doi: 10.1002/hrm.20214.
+Woodhams, C., Lupton, B. and Xian, H. (2009), “The persistence of gender discrimination in China–
+evidence from recruitment advertisements”, The International Journal of Human Resource
+Management, Vol. 20 No. 10, pp. 2084-2109, doi: 10.1080/09585190903175647.
+Corresponding author
+Ali Mahjoub can be contacted at: Ali.Mahjoub@gmail.com
+For instructions on how to order reprints of this article, please visit our website:
+www.emeraldgrouppublishing.com/licensing/reprints.htm
+Or contact us for further details: permissions@emeraldinsight.com
+Recruitment
+with effective
+job
+advertisement
+View publication stats
