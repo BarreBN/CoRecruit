@@ -10,18 +10,73 @@ import tiktoken
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Function to load CSS
-def load_css(file_name):
-    # Get the directory of the current script
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Construct the absolute path to the CSS file
-    file_path = os.path.join(script_dir, file_name)
-
-    with open(file_path) as f:
-        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+def load_css():
+    st.markdown(
+        """
+        <style>
+        /* Use a sans-serif font */
+        body, h1, h2, h3, h4, h5, h6, p, li, a {
+            font-family: 'Arial', sans-serif !important;
+        }
+        /* Set light mode text color */
+        body {
+            color: #007ACC !important;  /* A blue color that looks good in light mode */
+            background-color: #f0f0f0 !important; /* Light gray background */
+        }
+        /* General styling for other elements to match the theme */
+        .stButton>button {
+            background-color: #007ACC !important;
+            color: white !important;
+            border: none !important;
+            padding: 10px 20px !important;
+            font-size: 16px !important;
+            cursor: pointer !important;
+            border-radius: 5px !important;
+        }
+        .stButton>button:hover {
+            background-color: #005F99 !important;
+        }
+        .stFileUploader {
+            color: #007ACC !important;
+        }
+        .stSidebar .stSlider {
+            color: #007ACC !important;
+        }
+        .stSidebar .stSelectbox {
+            color: #007ACC !important;
+        }
+        .stSidebar .stCheckbox {
+            color: #007ACC !important;
+        }
+        /* Container for the steps section */
+        .steps-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .step {
+            text-align: center;
+            max-width: 200px;
+        }
+        .step-header {
+            font-size: 24px;
+            margin-bottom: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .step-text {
+            font-size: 16px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
 
 # Load the CSS
-load_css('styles.css')
+load_css()
 
 # Function to read the context file
 def read_context(file_name):
@@ -128,18 +183,18 @@ st.markdown(
 
 # New section with three elements
 st.markdown(
-    """
+    f"""
     <div class="steps-container">
         <div class="step">
-            <div class="step-header">Upload</div>
+            <div class="step-header" style="background-image: url('data:image/png;base64,{logo_base64}');">Upload</div>
             <div class="step-text">1. Upload your job posting in either .txt or .docx format</div>
         </div>
         <div class="step">
-            <div class="step-header">Choose options</div>
+            <div class="step-header" style="background-image: url('data:image/png;base64,{logo_base64}');">Choose options</div>
             <div class="step-text">2. Adjust the parameters in the sidebar to match your ideal candidate’s profile</div>
         </div>
         <div class="step">
-            <div class="step-header">Generate</div>
+            <div class="step-header" style="background-image: url('data:image/png;base64,{logo_base64}');">Generate</div>
             <div class="step-text">3. Click 'Run' to get AI-generated recommendations for improving your job posting.</div>
         </div>
     </div>
