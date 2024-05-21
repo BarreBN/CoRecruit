@@ -113,7 +113,7 @@ topimage_base64 = image_to_base64(topimage_path)
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{topimage_base64}" style="height: 500px;">
+        <img src="data:image/png;base64,{topimage_base64}" class="topimage" style="height: 500px;">
     </div>
     """,
     unsafe_allow_html=True
