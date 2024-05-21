@@ -108,6 +108,20 @@ topdescimage_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "to
 topdescimage_base64 = image_to_base64(topdescimage_path)
 
 # Main page content
+
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("https://www.vecteezy.com/vector-art/421699-vector-documents-icon");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Display image
 st.markdown(
     f"""
