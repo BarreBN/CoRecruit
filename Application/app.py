@@ -128,7 +128,13 @@ st.markdown(
 st.markdown(
     f"""
     <div style="display: flex; flex-direction: column; align-items: center;">
-        <img src="data:image/png;base64,{topdescimage_base64}" style="height: 400px;">
+        <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px;">
+        <h1>Tutorial</h1>
+        <p>
+        1. Upload your job posting in either .txt or .docx format.<br>
+        2. Adjust the parameters in the sidebar to match your ideal candidate's profile.<br>
+        3. Click 'Run' to get AI-generated recommendations for improving your job posting.
+        </p>
     </div>
     """,
     unsafe_allow_html=True
@@ -191,13 +197,6 @@ st.markdown("""
 <div style='text-align: center;'><span style='font-size:50px;'>&#8595;</span></div>
 &nbsp;
 """, unsafe_allow_html=True)
-
-st.header('Tutorial')
-st.write("""
-1. Upload your job posting in either .txt or .docx format.
-2. Adjust the parameters in the sidebar to match your ideal candidate's profile.
-3. Click 'Run' to get AI-generated recommendations for improving your job posting.
-""")
 
 st.header('FAQ')
 st.write("""
