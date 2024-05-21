@@ -124,8 +124,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Display header
-st.header("CoRecruit AI")
+st.markdown(
+    """
+    <h1 style="text-align: center; font-size: 40px;">CoRecruit AI</h1>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # Display the logo in the sidebar
