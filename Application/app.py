@@ -100,19 +100,10 @@ def image_to_base64(image_path):
         return base64.b64encode(img_file.read()).decode("utf-8")
 
 # Convert logo to base64
-logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_transparent.png")
+logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "topdescimage.png")
 logo_base64 = image_to_base64(logo_path)
 
-# Main page content
-st.markdown(
-    f"""
-    <div style="display: flex; align-items: center;">
-        <img src="data:image/png;base64,{logo_base64}" style="height: 120px; margin-right: 15px;">
-        <h1 style="display: inline;">CoRecruit AI</h1>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
 
 # Display the logo in the sidebar
 st.sidebar.markdown(
