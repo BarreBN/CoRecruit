@@ -190,7 +190,10 @@ A: We support .txt and .docx files.
 A: The AI analyzes your job posting based on the criteria you set and suggests improvements to better attract your ideal candidate.
 
 **Q: Is my data secure?**
-A: Yes, we prioritize your data privacy and security. Your uploaded files and data are not stored or shared.
+A: Yes, we prioritize your data privacy and security. CoRecruit AI does not store or share your uploaded files.
+
+**Q: How do you use ChatGPT?**
+A: We use ChatGPT to process and analyze the content of your job ad. By feeding the job ad and your specified criteria into ChatGPT, we can generate recommendations to enhance your job posting. This ensures that your ad is well-structured, appealing, and targeted to attract the right candidates.
 """)
 
 st.header('About Us')
