@@ -161,7 +161,7 @@ st.markdown("""
 &nbsp;
 &nbsp;
 &nbsp;
-<hr style='border:2px outset black'> 
+<hr style='border:2px ridge black'> 
 <div style='text-align: center;'><span style='font-size:50px;'>&#8595;</span></div>
 &nbsp;
 """, unsafe_allow_html=True)
