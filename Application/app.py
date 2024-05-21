@@ -109,18 +109,20 @@ topdescimage_base64 = image_to_base64(topdescimage_path)
 
 # Main page content
 
+#background image
 st.markdown(
     """
     <style>
     .reportview-container {
-        background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg") !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # Display image
 st.markdown(
