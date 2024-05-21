@@ -1,75 +1,49 @@
-/* styles.css */
+/* Use a sans-serif font */
+body, h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: 'Arial', sans-serif !important;
+}
 
-/* General body styling */
+/* Light mode text color */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #00547e; /* Background color */
+    color: #007ACC !important;  /* A blue color that looks good in light mode */
+    background-color: #f0f0f0 !important; /* Light gray background */
 }
 
-/* Styling for h1 */
-h1 {
-    color: #0046af;
-    font-family: Papyrus, sans-serif;
+/* Dark mode text color */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #00CED1 !important;  /* A turquoise color that looks good in dark mode */
+        background-color: #333333 !important; /* Dark gray background */
+    }
 }
 
-/* Styling for highlighted text in h1 */
-h1 .highlight {
-    color: #ff0000; /* Change to your preferred color */
-    font-weight: bold;
+/* General styling for other elements to match the theme */
+.stButton>button {
+    background-color: #007ACC !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+    border-radius: 5px !important;
 }
 
-<input type="text" name="myTextbox" id="myTextbox">
-    <!-- Rest of your HTML content -->
-
-/* Styling for the textbox */
-#myTextbox {
-    width: 50%; /* Full width */
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
+.stButton>button:hover {
+    background-color: #005F99 !important;
 }
 
-/* Styling for other headers */
-h2, h3, h4, h5, h6 {
-    color: #0046af;
-    font-family: Papyrus, sans-serif; /* Add your preferred font here */
+.stFileUploader {
+    color: #007ACC !important;
 }
 
-/* Styling for buttons */
-button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: rgba(255, 255, 255, 0);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-family: Papyrus;
-    display: inline-block;
+.stSidebar .stSlider {
+    color: #007ACC !important;
 }
 
-/* Custom styles for Streamlit sidebar */
-[data-testid="stSidebar"] {
-    background-color: #00488838; /* Dark background for sidebar */
-    color: white;
+.stSidebar .stSelectbox {
+    color: #007ACC !important;
 }
 
-/* Styling for the sidebar */
-[data-testid="stSidebar"] .css-1d391kg {
-    padding-top: 10px; /* Adjust padding */
-}
-
-/* Styling the radio buttons */
-[data-testid="stSidebar"] .css-1inwz65 {
-    color: white;
-}
-
-/* Main content adjustments */
-.main .block-container {
-    padding-top: 1rem; /* Adjust top padding */
-    padding-left: 2rem; /* Adjust left padding */
-    padding-right: 2rem; /* Adjust right padding */
-    padding-bottom: 2rem; /* Adjust bottom padding */
-    background-color: #ffffff00; /* Background color for main content */
+.stSidebar .stCheckbox {
+    color: #007ACC !important;
 }
