@@ -109,25 +109,10 @@ topdescimage_base64 = image_to_base64(topdescimage_path)
 
 # Main page content
 
-#background image
-st.markdown(
-    """
-    <style>
-    .reportview-container {
-        background: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg") !important;
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-
 # Display image
 st.markdown(
     f"""
-    <div style="display: flex; flex-direction: column; align-items: center;">
+    <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px;">
         <h1>Tutorial</h1>
         <p>
