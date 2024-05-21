@@ -114,7 +114,7 @@ st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px; margin-right: 20px;">
-        <p style="font-family: Papyrus; font-size: 12px;">
+        <p style="font-family: Papyrus; font-size: 14px;">
         1. Upload your job posting in either .txt or .docx format.<br>
         2. Adjust the parameters in the sidebar to match your ideal candidate's profile.<br>
         3. Click 'Run' to get AI-generated recommendations for improving your job posting.
