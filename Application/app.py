@@ -111,7 +111,7 @@ topdescimage_base64 = image_to_base64(topdescimage_path)
 st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
-        <img src="data:image/png;base64,{topdescimage_base64}" style="height: 120px; margin-right: 15px;">
+        <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px; margin-right: 15px;">
         <h1 style="display: inline;">CoRecruit AI</h1>
     </div>
     """,
