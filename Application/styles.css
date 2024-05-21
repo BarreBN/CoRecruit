@@ -47,3 +47,21 @@ body {
 .stSidebar .stCheckbox {
     color: #007ACC !important;
 }
+# Main page content
+
+# Display image with class for dark mode handling
+st.markdown(
+    f"""
+    <div style="display: flex; justify-content: center;">
+        <img src="data:image/png;base64,{topimage_base64}" class="topimage" style="height: 500px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    """
+    <h1 style="text-align: center; font-size: 60px;"><span style="font-family: Papyrus;">CoRecruit</span> AI</h1>
+    """,
+    unsafe_allow_html=True
+)
