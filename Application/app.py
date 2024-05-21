@@ -126,7 +126,7 @@ st.markdown(
 
 st.markdown(
     """
-    <h1 style="text-align: center; font-size: 40px;">CoRecruit AI</h1>
+    <h1 style="text-align: center; font-size: 40px;"><span style="font-family: Papyrus;">CoRecruit</span> AI</h1>
     """,
     unsafe_allow_html=True
 )
