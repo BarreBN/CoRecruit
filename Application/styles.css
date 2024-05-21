@@ -3,18 +3,10 @@ body, h1, h2, h3, h4, h5, h6, p, li, a {
     font-family: 'Arial', sans-serif !important;
 }
 
-/* Light mode text color */
+/* Set light mode text color */
 body {
     color: #007ACC !important;  /* A blue color that looks good in light mode */
     background-color: #f0f0f0 !important; /* Light gray background */
-}
-
-/* Dark mode text color */
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #00CED1 !important;  /* A turquoise color that looks good in dark mode */
-        background-color: #333333 !important; /* Dark gray background */
-    }
 }
 
 /* General styling for other elements to match the theme */
@@ -47,21 +39,30 @@ body {
 .stSidebar .stCheckbox {
     color: #007ACC !important;
 }
-# Main page content
 
-# Display image with class for dark mode handling
-st.markdown(
-    f"""
-    <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{topimage_base64}" class="topimage" style="height: 500px;">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+/* Container for the steps section */
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
 
-st.markdown(
-    """
-    <h1 style="text-align: center; font-size: 60px;"><span style="font-family: Papyrus;">CoRecruit</span> AI</h1>
-    """,
-    unsafe_allow_html=True
-)
+.step {
+    text-align: center;
+    max-width: 200px;
+}
+
+.step-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-image: url('data:image/png;base64,PLACEHOLDER_IMAGE_BASE64'); /* Add your image base64 here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white; /* Change this if the image makes the text hard to read */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.step-text {
+    font-size: 16px;
+}
