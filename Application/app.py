@@ -126,6 +126,26 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# New section with three elements
+st.markdown(
+    """
+    <div class="steps-container">
+        <div class="step">
+            <div class="step-header">Upload</div>
+            <div class="step-text">1. Upload your job posting in either .txt or .docx format</div>
+        </div>
+        <div class="step">
+            <div class="step-header">Choose options</div>
+            <div class="step-text">2. Adjust the parameters in the sidebar to match your ideal candidate’s profile</div>
+        </div>
+        <div class="step">
+            <div class="step-header">Generate</div>
+            <div class="step-text">3. Click 'Run' to get AI-generated recommendations for improving your job posting.</div>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Display the logo in the sidebar
 st.sidebar.markdown(
@@ -138,7 +158,6 @@ st.sidebar.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 # Sidebar options
 st.sidebar.title('Options')
@@ -192,7 +211,7 @@ A: The AI analyzes your job posting based on the criteria you set and suggests i
 **Q: Is my data secure?**
 A: Yes, we prioritize your data privacy and security. CoRecruit AI does not store or share your uploaded files.
 
-**Q: How do you use ChatGPT?**
+**Q: How do we use ChatGPT?**
 A: We use ChatGPT to process and analyze the content of your job ad. By feeding the job ad and your specified criteria into ChatGPT, we can generate recommendations to enhance your job posting. This ensures that your ad is well-structured, appealing, and targeted to attract the right candidates.
 """)
 
