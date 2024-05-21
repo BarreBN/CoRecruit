@@ -104,8 +104,8 @@ logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_trans
 logo_base64 = image_to_base64(logo_path)
 
 # Convert topdescimage to base64
-topdescimage_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "topdescimage.png")
-topdescimage_base64 = image_to_base64(topdescimage_path)
+topimage_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "topimage.png")
+topimage_base64 = image_to_base64(topimage_path)
 
 # Main page content
 
