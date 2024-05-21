@@ -108,15 +108,19 @@ topdescimage_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "to
 topdescimage_base64 = image_to_base64(topdescimage_path)
 
 # Main page content
+# Display image
 st.markdown(
     f"""
     <div style="display: flex; flex-direction: column; align-items: center;">
-        <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px; margin-right: 15px;">
-        <h1 style="display: inline;">CoRecruit AI</h1>
+        <img src="data:image/png;base64,{topdescimage_base64}" style="height: 400px;">
     </div>
     """,
     unsafe_allow_html=True
 )
+
+# Display header
+st.header("CoRecruit AI")
+
 
 # Display the logo in the sidebar
 st.sidebar.markdown(
