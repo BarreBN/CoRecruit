@@ -114,7 +114,6 @@ st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px; margin-right: 20px;">
-        <h1>Tutorial</h1>
         <p>
         1. Upload your job posting in either .txt or .docx format.<br>
         2. Adjust the parameters in the sidebar to match your ideal candidate's profile.<br>
