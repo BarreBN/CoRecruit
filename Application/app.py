@@ -114,7 +114,7 @@ st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{topdescimage_base64}" style="height: 200px; margin-right: 20px;">
-        <p style="font-family: Papyrus; font-size: 14px;">
+        <p style="font-family: Arial; font-size: 14px;">
         1. Upload your job posting in either .txt or .docx format.<br>
         2. Adjust the parameters in the sidebar to match your ideal candidate's profile.<br>
         3. Click 'Run' to get AI-generated recommendations for improving your job posting.
@@ -135,7 +135,7 @@ st.markdown(
 # Display the logo in the sidebar
 st.sidebar.markdown(
     f"""
-    <div style="display: flex; align-items: center;">
+    <div style="display: flex; align-items: left;">
         <img src="data:image/png;base64,{logo_base64}" style="height: 120px; margin-right: 15px;">
         <h1 style="text-align: center; font-size: 30px;"><span style="font-family: Papyrus;">CoRecruit</span> AI</h1>
     </div>
