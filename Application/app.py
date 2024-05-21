@@ -3,6 +3,7 @@ import streamlit as st
 from openai import OpenAI
 from io import BytesIO
 from docx import Document
+import base64
 import tiktoken
 
 # Initialize OpenAI client with the API key from Streamlit secrets
@@ -62,7 +63,7 @@ def get_recommendations(text, context, experience, language, employment_type, lo
         prompt = f"{context}\n\n{text}\n\nJag har en jobbannons och jag vill förbättra den baserat på vissa kriterier. Den ideala kandidaten för min jobbannons har följande egenskaper: {employment_type}, {experience}, {location}, {driving_license} och {education}. Kan du ge en översiktlig bedömning av jobbannonsen och kommentera specifika meningar, ord eller stycken som kan förbättras eller ändras för att bättre attrahera den ideala kandidaten? Skriv svaret på Svenska."
         system_message = "Du är en hjälpsam assistent."
     else:  # Default to English
-        prompt = f"{context}\n\n{text}\n\nI have a job posting and I want to improve it based on certain criteria. The ideal candidate for my job posting has the following characteristics: {employment_type}, {experience}, {location}, {driving_license} and {education}. Can you provide an overall assessment of the job posting and comment on specific sentences, words, or paragraphs that can be improved or changed to better attract the ideal candidate? Write the answer in English."
+        prompt = f"{context}\n\n{text}\n\nJag har en jobbannons och jag vill förbättra den baserat på vissa kriterier. Den ideala kandidaten för min jobbannons har följande egenskaper: {employment_type}, {experience}, {location}, {driving_license} och {education}. Kan du ge en översiktlig bedömning av jobbannonsen och kommentera specifika meningar, ord eller stycken som kan förbättras eller ändras för att bättre attrahera den ideala kandidaten? Skriv svaret på Engelska."
         system_message = "You are a helpful assistant."
 
     response = client.chat.completions.create(model="ft:gpt-3.5-turbo-0125:personal::9N4jESmA",
@@ -93,19 +94,47 @@ def read_file(file):
         st.error("Unsupported file type.")
         return ""
 
+# Function to convert image to base64
+def image_to_base64(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode("utf-8")
+
+# Convert logo to base64
+logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_transparent.png")
+logo_base64 = image_to_base64(logo_path)
+
 # Main page content
-st.title('CoRecruit AI')
+st.markdown(
+    f"""
+    <div style="display: flex; align-items: center;">
+        <img src="data:image/png;base64,{logo_base64}" style="height: 120px; margin-right: 15px;">
+        <h1 style="display: inline;">CoRecruit AI</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# Display the logo in the sidebar
+st.sidebar.markdown(
+    f"""
+    <div style="display: flex; align-items: center;">
+        <img src="data:image/png;base64,{logo_base64}" style="height: 120px; margin-right: 15px;">
+        <h1 style="display: inline;">CoRecruit AI</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Sidebar options
 st.sidebar.title('Options')
-experience = st.sidebar.slider('Experience (years)', 0, 10)
-language = st.sidebar.selectbox('Language', ['English', 'Swedish'])
+language = st.sidebar.selectbox('AI Response Language', ['English', 'Swedish'])
 employment_type = st.sidebar.selectbox('Employment Type', ['Full Time', 'Part Time'])
+experience = st.sidebar.selectbox('Experience', ['Not applicable', '0-1 years','1-3 years','3-5 years','5-10 years','10+ years'])
 location = st.sidebar.selectbox('On-site', ['Yes', 'No', 'Hybrid'])
 education = st.sidebar.selectbox('Education', ['Not applicable', 'Upper Secondary School', 'Higher Education'])
 driving_license = st.sidebar.checkbox('Driving License')
 
-uploaded_file = st.file_uploader("Upload a job posting", type=['txt', 'docx'])
+uploaded_file = st.file_uploader("", type=['txt', 'docx'], label_visibility="hidden")
 
 if uploaded_file is not None:
     if st.button('Run'):
@@ -119,6 +148,22 @@ if uploaded_file is not None:
             st.write(recommendations)
         else:
             st.error("Failed to extract text from the uploaded file.")
+
+# Add some space
+st.markdown('&nbsp;', unsafe_allow_html=True)
+# Add some space
+st.markdown('&nbsp;', unsafe_allow_html=True)
+# Add some space
+st.markdown('&nbsp;', unsafe_allow_html=True)
+
+# Add some space and a downward arrow
+st.markdown("""
+&nbsp;
+&nbsp;
+&nbsp;
+<div style='text-align: center;'><span style='font-size:50px;'>&#8595;</span></div>
+&nbsp;
+""", unsafe_allow_html=True)
 
 st.header('Tutorial')
 st.write("""
@@ -146,8 +191,8 @@ Our AI-driven recommendations ensure that your job ads are optimized for clarity
 <h3>Our Team</h3>
 <ul>
     <li>Brandon Nilsson (<a href="https://www.linkedin.com/in/b-nilsson/" target="_blank">LinkedIn</a>)</li>
-    <li>Jakob Delin</li>
-    <li>Molly Korse (<a href="https://www.linkedin.com/in/molly-korse-a4754b192/" target="_blank">LinkedIn</a>)</li>
+    <li>Jakob Delin (<a href="https://www.linkedin.com/in/jakob-delin-3b186430a/" target="_blank">LinkedIn</a>)</li>
+    <li>Molly Korse (<a href="https://www.linkedin.com/in/molkor/" target="_blank">LinkedIn</a>)</li>
     <li>Peter Markus (<a href="https://www.linkedin.com/in/kedinpetmark/" target="_blank">LinkedIn</a>)</li>
     <li>Tobias Magnusson (<a href="https://www.linkedin.com/in/tobias-magnusson-333650194/" target="_blank">LinkedIn</a>)</li>
 </ul>
