@@ -113,12 +113,7 @@ topimage_base64 = image_to_base64(topimage_path)
 st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
-        <img src="data:image/png;base64,{topimage_base64}" style="height: 230px; margin-right: 20px;">
-        <p style="font-family: Papyrus; font-size: 14px;">
-        1. Upload your job posting in either .txt or .docx format.<br>
-        2. Adjust the parameters in the sidebar to match your ideal candidate's profile.<br>
-        3. Click 'Run' to get AI-generated recommendations for improving your job posting.
-        </p>
+        <img src="data:image/png;base64,{topimage_base64}" style="height: 230px;">
     </div>
     """,
     unsafe_allow_html=True
