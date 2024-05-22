@@ -104,8 +104,8 @@ logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_trans
 logo_base64 = image_to_base64(logo_path)
 
 # Convert topdescimage to base64
-topfish_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "topfish.png")
-topfish_base64 = image_to_base64(topfish_path)
+safetop_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "safetop.png")
+safetop_base64 = image_to_base64(safetop_path)
 
 # Convert Tutorialdarkmode to base64
 Tutorialdarkmode_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Tutorialdarkmode.png")
@@ -117,7 +117,7 @@ Tutorialdarkmode_base64 = image_to_base64(Tutorialdarkmode_path)
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{topfish_base64}" class="topfish" style="height: 300px;">
+        <img src="data:image/png;base64,{safetop_base64}" class="safetop" style="height: 300px;">
     </div>
     """,
     unsafe_allow_html=True
