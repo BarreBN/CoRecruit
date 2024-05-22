@@ -113,7 +113,7 @@ topfish_base64 = image_to_base64(topfish_path)
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{topfish_base64}" class="topfish" style="height: 500px;">
+        <img src="data:image/png;base64,{topfish_base64}" class="topfish" style="height: 300px;">
     </div>
     """,
     unsafe_allow_html=True
