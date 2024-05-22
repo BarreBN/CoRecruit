@@ -108,7 +108,7 @@ topfish_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "topfish
 topfish_base64 = image_to_base64(topfish_path)
 
 # Convert Tutorialdarkmode to base64
-Tutorialdarkmode _path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Tutorialdarkmode .png")
+Tutorialdarkmode _path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Tutorialdarkmode.png")
 Tutorialdarkmode _base64 = image_to_base64(Tutorialdarkmode _path)
 
 # Main page content
