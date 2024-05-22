@@ -130,15 +130,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Display image
-st.markdown(
-    f"""
-    <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{Tutorialdarkmode_base64}" class="Tutorialdarkmode" style="height: 300px;">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 # Display the logo in the sidebar
 st.sidebar.markdown(
@@ -193,6 +184,17 @@ st.markdown("""
 <div style='text-align: center;'><span style='font-size:50px;'>&#8595;</span></div>
 &nbsp;
 """, unsafe_allow_html=True)
+
+# Display image
+st.markdown(
+    f"""
+    <div style="display: flex; justify-content: center;">
+        <img src="data:image/png;base64,{Tutorialdarkmode_base64}" class="Tutorialdarkmode" style="height: 300px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.header('FAQ')
 st.write("""
