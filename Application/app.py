@@ -108,8 +108,8 @@ topfish_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "topfish
 topfish_base64 = image_to_base64(topfish_path)
 
 # Convert Tutorialdarkmode to base64
-Tutorialdarkmode _path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Tutorialdarkmode.png")
-Tutorialdarkmode _base64 = image_to_base64(Tutorialdarkmode _path)
+Tutorialdarkmode_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Tutorialdarkmode.png")
+Tutorialdarkmode_base64 = image_to_base64(Tutorialdarkmode_path)
 
 # Main page content
 
@@ -134,7 +134,7 @@ st.markdown(
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{Tutorialdarkmode _base64}" class="Tutorialdarkmode" style="height: 300px;">
+        <img src="data:image/png;base64,{Tutorialdarkmode_base64}" class="Tutorialdarkmode" style="height: 300px;">
     </div>
     """,
     unsafe_allow_html=True
