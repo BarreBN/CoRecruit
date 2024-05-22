@@ -123,13 +123,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown(
-    """
-    <h1 style="text-align: center; font-size: 60px;"><span style="font-family: Papyrus;">CoRecruit</span> AI</h1>
-    """,
-    unsafe_allow_html=True
-)
-
 
 # Display the logo in the sidebar
 st.sidebar.markdown(
