@@ -104,8 +104,8 @@ logo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logo_trans
 logo_base64 = image_to_base64(logo_path)
 
 # Convert topdescimage to base64
-job_board_2_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "job_board_2.png")
-job_board_2_base64 = image_to_base64(job_board_2_path)
+job_board_3_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "job_board_3.png")
+job_board_3_base64 = image_to_base64(job_board_3_path)
 
 # Convert Tutorialdarkmode to base64
 Tutorialdarkmode_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "Tutorialdarkmode.png")
@@ -117,7 +117,7 @@ Tutorialdarkmode_base64 = image_to_base64(Tutorialdarkmode_path)
 st.markdown(
     f"""
     <div style="display: flex; justify-content: center;">
-        <img src="data:image/png;base64,{job_board_2_base64}" class="job_board_2" style="height: 300px;">
+        <img src="data:image/png;base64,{job_board_3_base64}" class="job_board_3" style="height: 300px;">
     </div>
     """,
     unsafe_allow_html=True
